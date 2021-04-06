@@ -48,37 +48,27 @@ class Mapping():
         return self.corpus
 
 
-
-#get the corpus
-corpus_mapped2: Corpus = ColumnCorpus(
+    def onto_ner_mapped(self):
+        self.corpus_mapped: Corpus = ColumnCorpus(
                 "resources/tasks/onto-ner",
                 column_format={0: "text", 1: "pos", 2: "upos", 3: "ner"},
                 tag_to_bioes="ner",
                 label_name_map={'NORP':'ORG','FAC':'LOC','GPE':'LOC','CARDINAL':'MISC','DATE':'MISC','EVENT':'MISC','LANGUAGE':'MISC','LAW':'MISC','MONEY':'MISC','ORDINAL':'MISC','PERCENT':'MISC','PRODUCT':'MISC','QUANTITY':'MISC','TIME':'MISC','WORK_OF_ART':'MISC'}
             )
-
-# 2. what tag do we want to predict?
-tag_type = 'ner'
+        return self.corpus_mapped
 
 
-###Mapping the mit_mobie_ner_simple
-
-#get the corpus
-corpus3 = MIT_MOVIE_NER_SIMPLE()
-
-# load corpus and define a mapping that maps
-corpus_mapped3 = MIT_MOVIE_NER_SIMPLE(
+    def mit_movie_ner_mapped(self):
+        self.corpus_mapped = MIT_MOVIE_NER_SIMPLE(
     label_name_map={'SONG': 'MISC','PLOT': 'MISC','YEAR': 'MISC','GENRE': 'MISC','REVIEW': 'MISC','RATING': 'MISC','RATINGS_AVERAGE': 'MISC','TITLE': 'MISC','TRAILER': 'MISC','DIRECTOR': 'PER','ACTOR': 'PER','CHARACTER': 'PER'}
     )
+        return self.corpus_mapped
 
 
-###Mapping the mit_restaurant_ner
-
-#get the corpus
-corpus4 = MIT_RESTAURANT_NER()
-
-# load corpus and define a mapping that maps
-corpus_mapped4 = MIT_RESTAURANT_NER(
-    label_name_map={'Rating': 'MISC','Price': 'MISC','Hours': 'MISC','Amenity': 'MISC','Dish': 'MISC','Cuisine': 'MISC','Location': 'LOC','Restaurant_Name': 'ORG'}
+    def mot_restaurant_ner_mapped(self):
+        self.corpus_mapped = MIT_MOVIE_NER_SIMPLE(
+    label_name_map={'SONG': 'MISC','PLOT': 'MISC','YEAR': 'MISC','GENRE': 'MISC','REVIEW': 'MISC','RATING': 'MISC','RATINGS_AVERAGE': 'MISC','TITLE': 'MISC','TRAILER': 'MISC','DIRECTOR': 'PER','ACTOR': 'PER','CHARACTER': 'PER'}
     )
+        return self.corpus_mapped
+
 
