@@ -62,11 +62,11 @@ trainer.train(
     "resources/taggers/",
     learning_rate=0.1,
     mini_batch_size=32,
-    max_epochs=20,
+    max_epochs=100,
     shuffle=False,
 )
 
 
-plotter = Plotter()
-plotter.plot_training_curves("resources/taggers/twitter-ner/loss.tsv")
-plotter.plot_weights("resources/taggers/twitter-ner/weights.txt")
+# plotter = Plotter()
+# plotter.plot_training_curves("resources/taggers/twitter-ner/loss.tsv")
+# plotter.plot_weights("resources/taggers/twitter-ner/weights.txt")
