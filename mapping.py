@@ -65,10 +65,10 @@ label_name_map={'SONG': 'MISC','PLOT': 'MISC','YEAR': 'MISC','GENRE': 'MISC','RE
     return corpus_mapped
 
 
-# def mit_restaurant_ner_mapped():
-#    corpus_mapped = MIT_MOVIE_NER_SIMPLE(
-# label_name_map={'SONG': 'MISC','PLOT': 'MISC','YEAR': 'MISC','GENRE': 'MISC','REVIEW': 'MISC','RATING': 'MISC','RATINGS_AVERAGE': 'MISC','TITLE': 'MISC','TRAILER': 'MISC','DIRECTOR': 'PER','ACTOR': 'PER','CHARACTER': 'PER'}
-# )
-#     return corpus_mapped
+def mit_restaurant_ner_mapped():
+    corpus_mapped = MIT_MOVIE_NER_SIMPLE(
+label_name_map={'SONG': 'MISC','PLOT': 'MISC','YEAR': 'MISC','GENRE': 'MISC','REVIEW': 'MISC','RATING': 'MISC','RATINGS_AVERAGE': 'MISC','TITLE': 'MISC','TRAILER': 'MISC','DIRECTOR': 'PER','ACTOR': 'PER','CHARACTER': 'PER'}
+)
+    return corpus_mapped
 
 

@@ -15,9 +15,9 @@ from flair.visual.training_curves import Plotter
 
 #get the corpus
 
-from mapping import Mapping
+from flair.datasets import CONLL_03
 
-corpus = Mapping.twitter_ner_mapped()
+corpus = CONLL_03()
 
 
 # 2. what tag do we want to predict?
@@ -59,7 +59,7 @@ from flair.trainers import ModelTrainer
 trainer: ModelTrainer = ModelTrainer(tagger, corpus)
 
 trainer.train(
-    "resources/taggers/twitter-ner",
+    "resources/taggers/",
     learning_rate=0.1,
     mini_batch_size=32,
     max_epochs=20,
