@@ -38,8 +38,8 @@ log = logging.getLogger("flair")
 
 def twitter_ner_mapped():
     corpus_mapped = TWITTER_NER(
-label_name_map={'facility': 'MISC','movie': 'MISC','product': 'MISC','sportsteam': 'ORG','tvshow': 'MISC','other': 'MISC','person': 'PER','geo-loc': 'LOC','company': 'ORG','band': 'ORG'}
-)
+label_name_map={'facility': 'ORG','movie': 'MISC','product': 'MISC','sportsteam': 'ORG','tvshow': 'ORG','other': 'MISC','person': 'PER','geo-loc': 'LOC','company': 'ORG','band': 'ORG'}
+    )
     return corpus_mapped
 
 
@@ -53,22 +53,13 @@ def onto_ner_mapped():
             "resources/tasks/onto-ner",
             column_format={0: "text", 1: "pos", 2: "upos", 3: "ner"},
             tag_to_bioes="ner",
-            label_name_map={'NORP':'ORG','FAC':'LOC','GPE':'LOC','CARDINAL':'MISC','DATE':'MISC','EVENT':'MISC','LANGUAGE':'MISC','LAW':'MISC','MONEY':'MISC','ORDINAL':'MISC','PERCENT':'MISC','PRODUCT':'MISC','QUANTITY':'MISC','TIME':'MISC','WORK_OF_ART':'MISC'}
-        )
+            label_name_map={'NORP': 'ORG', 'FAC': 'LOC', 'GPE': 'LOC', 'CARDINAL': 'MISC', 'DATE': 'MISC', 'EVENT': 'MISC',
+                        'LANGUAGE': 'MISC', 'LAW': 'MISC', 'MONEY': 'MISC', 'ORDINAL': 'MISC', 'PERCENT': 'MISC',
+                        'PRODUCT': 'MISC', 'QUANTITY': 'MISC', 'TIME': 'MISC', 'WORK_OF_ART': 'MISC', 'LOC': 'LOC',
+                        'ORG': 'ORG', 'PERSON': 'PER'}
+    )
     return corpus_mapped
 
 
-def mit_movie_ner_mapped():
-    corpus_mapped = MIT_MOVIE_NER_SIMPLE(
-label_name_map={'SONG': 'MISC','PLOT': 'MISC','YEAR': 'MISC','GENRE': 'MISC','REVIEW': 'MISC','RATING': 'MISC','RATINGS_AVERAGE': 'MISC','TITLE': 'MISC','TRAILER': 'MISC','DIRECTOR': 'PER','ACTOR': 'PER','CHARACTER': 'PER'}
-)
-    return corpus_mapped
-
-
-def mit_restaurant_ner_mapped():
-    corpus_mapped = MIT_MOVIE_NER_SIMPLE(
-label_name_map={'SONG': 'MISC','PLOT': 'MISC','YEAR': 'MISC','GENRE': 'MISC','REVIEW': 'MISC','RATING': 'MISC','RATINGS_AVERAGE': 'MISC','TITLE': 'MISC','TRAILER': 'MISC','DIRECTOR': 'PER','ACTOR': 'PER','CHARACTER': 'PER'}
-)
-    return corpus_mapped
 
 

@@ -59,11 +59,11 @@ from flair.trainers import ModelTrainer
 trainer: ModelTrainer = ModelTrainer(tagger, corpus)
 
 trainer.train(
-    "resources/taggers/",
+    "resources/taggers/conll_03",
     learning_rate=0.1,
     mini_batch_size=32,
     max_epochs=100,
-    shuffle=False,
+    shuffle=True,
 )
 
 
