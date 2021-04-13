@@ -16,8 +16,12 @@ from flair.visual.training_curves import Plotter
 #get the corpus
 
 from flair.datasets import CONLL_03
-
-corpus = CONLL_03()
+from mapping import (
+        twitter_ner_mapped,
+        onto_ner_mapped,
+        wikigold_ner_mapped
+    )
+corpus = onto_ner_mapped()
 
 
 # 2. what tag do we want to predict?
@@ -59,14 +63,10 @@ from flair.trainers import ModelTrainer
 trainer: ModelTrainer = ModelTrainer(tagger, corpus)
 
 trainer.train(
-    "resources/taggers/conll_03",
+    "resources/taggers/onto_ner",
     learning_rate=0.1,
     mini_batch_size=32,
     max_epochs=100,
     shuffle=True,
 )
 
-
-# plotter = Plotter()
-# plotter.plot_training_curves("resources/taggers/twitter-ner/loss.tsv")
-# plotter.plot_weights("resources/taggers/twitter-ner/weights.txt")
