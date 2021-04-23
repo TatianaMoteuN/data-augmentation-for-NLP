@@ -1,0 +1,87 @@
+O	0	0	O	-X-	-DOCSTART-	x	x	0
+
+B-PER	0	0	O	O	Erik	x	x	0
+I-PER	0	1	O	O	Winfree	x	x	0
+
+O	0	0	O	O	Associate	x	x	0
+O	0	1	O	O	Professor	x	x	0
+O	0	2	O	O	of	x	x	0
+B-MISC	0	3	O	O	Computer	x	x	0
+I-MISC	0	4	O	O	Science	x	x	0
+O	0	5	O	O	,	x	x	0
+B-MISC	0	6	O	O	Computation	x	x	0
+I-MISC	0	7	O	O	and	x	x	0
+I-MISC	0	8	O	O	Neural	x	x	0
+I-MISC	0	9	O	O	Systems	x	x	0
+O	0	10	O	O	,	x	x	0
+O	0	11	O	O	and	x	x	0
+B-MISC	0	12	O	O	Bioengineering	x	x	0
+
+O	0	0	O	O	B.S.,	x	x	0
+B-ORG	0	1	O	O	University	x	x	0
+I-ORG	0	2	O	O	of	x	x	0
+I-ORG	0	3	O	O	Chicago	x	x	0
+O	0	4	O	O	,	x	x	0
+O	0	5	O	O	1991;	x	x	0
+O	0	6	O	O	Ph.D.,	x	x	0
+B-ORG	0	7	O	O	Caltech	x	x	0
+O	0	8	O	O	,	x	x	0
+O	0	9	O	O	1998	x	x	0
+
+B-ORG	0	0	O	O	California	x	x	0
+I-ORG	0	1	O	O	Institute	x	x	0
+I-ORG	0	2	O	O	of	x	x	0
+I-ORG	0	3	O	O	Technology	x	x	0
+
+O	0	0	O	O	Computer	x	x	0
+O	0	1	O	O	Science	x	x	0
+
+B-LOC	0	0	O	O	1200	x	x	0
+I-LOC	0	1	O	O	E.	x	x	0
+I-LOC	0	2	O	O	California	x	x	0
+I-LOC	0	3	O	O	Boulevard	x	x	0
+
+B-LOC	0	0	O	O	MC	x	x	0
+I-LOC	0	1	O	O	136-93	x	x	0
+
+B-LOC	0	0	O	O	Pasadena,	x	x	0
+I-LOC	0	1	O	O	CA	x	x	0
+I-LOC	0	2	O	O	91125	x	x	0
+
+O	0	0	O	O	Office	x	x	0
+O	0	1	O	O	Location:	x	x	0
+B-LOC	0	2	O	O	204	x	x	0
+I-LOC	0	3	O	O	Moore	x	x	0
+
+O	0	0	O	O	Phone:	x	x	0
+O	0	1	O	O	(626)	x	x	0
+O	0	2	O	O	395-6246	x	x	0
+
+O	0	0	O	O	email	x	x	0
+O	0	1	O	O	|	x	x	0
+O	0	2	O	O	personal	x	x	0
+O	0	3	O	O	page	x	x	0
+
+O	0	0	O	O	Research	x	x	0
+
+O	0	0	O	O	Biomolecular	x	x	0
+O	0	1	O	O	computation,	x	x	0
+O	0	2	O	O	DNA	x	x	0
+O	0	3	O	O	based	x	x	0
+O	0	4	O	O	computation,	x	x	0
+O	0	5	O	O	algorithmic	x	x	0
+O	0	6	O	O	self-assembly,	x	x	0
+O	0	7	O	O	in	x	x	0
+O	0	8	O	O	vitro	x	x	0
+O	0	9	O	O	biochemical	x	x	0
+O	0	10	O	O	circuits,	x	x	0
+O	0	11	O	O	noise	x	x	0
+O	0	12	O	O	and	x	x	0
+O	0	13	O	O	fault-tolerance,	x	x	0
+O	0	14	O	O	DNA	x	x	0
+O	0	15	O	O	and	x	x	0
+O	0	16	O	O	RNA	x	x	0
+O	0	17	O	O	folding,	x	x	0
+O	0	18	O	O	evolution.	x	x	0
+
+

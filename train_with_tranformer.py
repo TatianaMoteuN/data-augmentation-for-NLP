@@ -32,5 +32,9 @@ trainer.train('resources/taggers/trec/conll3',
               learning_rate=3e-5, # use very small learning rate
               mini_batch_size=16,
               mini_batch_chunk_size=4, # optionally set this if transformer is too much for your machine
-              max_epochs=50, # terminate after 5 epochs
+              max_epochs=50, # terminate after 50 epochs
+              save_final_model= True,
+              shuffle= True,
+
               )
+trainer.train()

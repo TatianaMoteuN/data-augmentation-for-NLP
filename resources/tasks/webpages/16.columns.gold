@@ -1,0 +1,95 @@
+O	0	0	O	-X-	-DOCSTART-	x	x	0
+
+O	0	0	O	O	Welcome	x	x	0
+O	0	1	O	O	to	x	x	0
+B-PER	0	2	O	O	Steven	x	x	0
+O	0	3	O	O	's	x	x	0
+O	0	4	O	O	Home	x	x	0
+O	0	5	O	O	Page	x	x	0
+
+O	0	0	O	O	*	x	x	0
+O	0	1	O	O	About	x	x	0
+O	0	2	O	O	Me	x	x	0
+O	0	3	O	O	(coming	x	x	0
+O	0	4	O	O	soon)	x	x	0
+
+O	0	0	O	O	*	x	x	0
+O	0	1	O	O	My	x	x	0
+O	0	2	O	O	Career	x	x	0
+
+O	0	0	O	O	o	x	x	0
+O	0	1	O	O	My	x	x	0
+O	0	2	O	O	Economics	x	x	0
+O	0	3	O	O	Home	x	x	0
+O	0	4	O	O	Page	x	x	0
+O	0	5	O	O	(down	x	x	0
+O	0	6	O	O	for	x	x	0
+O	0	7	O	O	updating)	x	x	0
+
+O	0	0	O	O	o	x	x	0
+O	0	1	O	O	Current	x	x	0
+O	0	2	O	O	CV	x	x	0
+
+O	0	0	O	O	*	x	x	0
+O	0	1	O	O	My	x	x	0
+O	0	2	O	O	Hobbies	x	x	0
+O	0	3	O	O	(coming	x	x	0
+O	0	4	O	O	soon)	x	x	0
+
+O	0	0	O	O	o	x	x	0
+O	0	1	O	O	Skiing	x	x	0
+
+O	0	0	O	O	o	x	x	0
+O	0	1	O	O	Surfing	x	x	0
+
+O	0	0	O	O	o	x	x	0
+O	0	1	O	O	Tramping	x	x	0
+
+O	0	0	O	O	o	x	x	0
+O	0	1	O	O	Team	x	x	0
+O	0	2	O	O	Sports	x	x	0
+
+O	0	0	O	O	*	x	x	0
+O	0	1	O	O	Travel	x	x	0
+O	0	2	O	O	(coming	x	x	0
+O	0	3	O	O	soon)	x	x	0
+
+O	0	0	O	O	o	x	x	0
+O	0	1	O	O	Airlines/Airfare	x	x	0
+
+O	0	0	O	O	o	x	x	0
+O	0	1	O	O	Hotels	x	x	0
+
+O	0	0	O	O	o	x	x	0
+B-LOC	0	1	O	O	US	x	x	0
+
+O	0	0	O	O	o	x	x	0
+B-LOC	0	1	O	O	Canada	x	x	0
+
+O	0	0	O	O	o	x	x	0
+B-LOC	0	1	O	O	Europe	x	x	0
+
+O	0	0	O	O	o	x	x	0
+B-LOC	0	1	O	O	India	x	x	0
+
+O	0	0	O	O	*	x	x	0
+O	0	1	O	O	Links	x	x	0
+O	0	2	O	O	to	x	x	0
+O	0	3	O	O	Friends	x	x	0
+O	0	4	O	O	(coming	x	x	0
+O	0	5	O	O	soon)	x	x	0
+
+O	0	0	O	O	*	x	x	0
+O	0	1	O	O	Email	x	x	0
+B-LOC	0	2	O	O	Steven	x	x	0
+
+B-LOC	0	0	O	O	Natasha	x	x	0
+O	0	1	O	O	's	x	x	0
+O	0	2	O	O	Home	x	x	0
+O	0	3	O	O	Page	x	x	0
+
+O	0	0	O	O	Our	x	x	0
+O	0	1	O	O	Photo	x	x	0
+O	0	2	O	O	Album	x	x	0
+
+

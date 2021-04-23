@@ -1,0 +1,410 @@
+O	0	0	O	-X-	-DOCSTART-	x	x	0
+
+O	0	0	O	O	Welcome	x	x	0
+
+O	0	0	O	O	Welcome	x	x	0
+O	0	1	O	O	to	x	x	0
+O	0	2	O	O	the	x	x	0
+O	0	3	O	O	webpage	x	x	0
+O	0	4	O	O	for	x	x	0
+B-ORG	0	5	O	O	North	x	x	0
+I-ORG	0	6	O	O	American	x	x	0
+I-ORG	0	7	O	O	Chapter	x	x	0
+I-ORG	0	8	O	O	of	x	x	0
+I-ORG	0	9	O	O	the	x	x	0
+I-ORG	0	10	O	O	Association	x	x	0
+I-ORG	0	11	O	O	for	x	x	0
+I-ORG	0	12	O	O	Computational	x	x	0
+I-ORG	0	13	O	O	Linguistics	x	x	0
+O	0	14	O	O	-	x	x	0
+B-ORG	0	15	O	O	Human	x	x	0
+I-ORG	0	16	O	O	Language	x	x	0
+I-ORG	0	17	O	O	Technologies	x	x	0
+I-ORG	0	18	O	O	(NAACL	x	x	0
+I-ORG	0	19	O	O	HLT)	x	x	0
+O	0	20	O	O	2009	x	x	0
+O	0	21	O	O	conference.	x	x	0
+
+O	0	0	O	O	Announcements	x	x	0
+
+O	0	0	O	O	The	x	x	0
+O	0	1	O	O	submission	x	x	0
+O	0	2	O	O	deadline	x	x	0
+O	0	3	O	O	for	x	x	0
+O	0	4	O	O	full	x	x	0
+O	0	5	O	O	papers	x	x	0
+O	0	6	O	O	is	x	x	0
+O	0	7	O	O	11.59pm,	x	x	0
+O	0	8	O	O	PST,	x	x	0
+O	0	9	O	O	December	x	x	0
+O	0	10	O	O	1st	x	x	0
+O	0	11	O	O	2008.	x	x	0
+O	0	12	O	O	Papers	x	x	0
+O	0	13	O	O	should	x	x	0
+O	0	14	O	O	be	x	x	0
+O	0	15	O	O	submitted	x	x	0
+O	0	16	O	O	at	x	x	0
+O	0	17	O	O	https://www.softconf.com/naacl-hlt09/papers	x	x	0
+
+O	0	0	O	O	Events	x	x	0
+
+O	0	0	O	O	Tutorials,	x	x	0
+O	0	1	O	O	May	x	x	0
+O	0	2	O	O	31	x	x	0
+
+O	0	0	O	O	Main	x	x	0
+O	0	1	O	O	Conference,	x	x	0
+O	0	2	O	O	June	x	x	0
+O	0	3	O	O	1-3	x	x	0
+
+O	0	0	O	O	Workshops,	x	x	0
+O	0	1	O	O	June	x	x	0
+O	0	2	O	O	4-5	x	x	0
+
+O	0	0	O	O	Conference	x	x	0
+O	0	1	O	O	Committee	x	x	0
+
+O	0	0	O	O	General	x	x	0
+O	0	1	O	O	Conference	x	x	0
+O	0	2	O	O	Chair	x	x	0
+
+O	0	0	O	O	*	x	x	0
+B-PER	0	1	O	O	Mari	x	x	0
+I-PER	0	2	O	O	Ostendorf	x	x	0
+O	0	3	O	O	,	x	x	0
+B-ORG	0	4	O	O	University	x	x	0
+I-ORG	0	5	O	O	of	x	x	0
+I-ORG	0	6	O	O	Washington	x	x	0
+
+O	0	0	O	O	Program	x	x	0
+O	0	1	O	O	Committee	x	x	0
+O	0	2	O	O	Chairs	x	x	0
+
+O	0	0	O	O	*	x	x	0
+B-PER	0	1	O	O	Michael	x	x	0
+I-PER	0	2	O	O	Collins	x	x	0
+O	0	3	O	O	,	x	x	0
+B-ORG	0	4	O	O	Massachusetts	x	x	0
+I-ORG	0	5	O	O	Institute	x	x	0
+I-ORG	0	6	O	O	of	x	x	0
+I-ORG	0	7	O	O	Technology	x	x	0
+O	0	8	O	O	(NLP)	x	x	0
+
+O	0	0	O	O	*	x	x	0
+B-PER	0	1	O	O	Lucy	x	x	0
+I-PER	0	2	O	O	Vanderwende	x	x	0
+O	0	3	O	O	,	x	x	0
+B-ORG	0	4	O	O	Microsoft	x	x	0
+O	0	5	O	O	(NLP)	x	x	0
+
+O	0	0	O	O	*	x	x	0
+B-PER	0	1	O	O	Doug	x	x	0
+I-PER	0	2	O	O	Oard	x	x	0
+O	0	3	O	O	,	x	x	0
+B-ORG	0	4	O	O	University	x	x	0
+I-ORG	0	5	O	O	of	x	x	0
+I-ORG	0	6	O	O	Maryland	x	x	0
+O	0	7	O	O	(IR)	x	x	0
+
+O	0	0	O	O	*	x	x	0
+B-PER	0	1	O	O	Shri	x	x	0
+I-PER	0	2	O	O	Narayanan	x	x	0
+O	0	3	O	O	,	x	x	0
+B-ORG	0	4	O	O	University	x	x	0
+I-ORG	0	5	O	O	of	x	x	0
+I-ORG	0	6	O	O	Southern	x	x	0
+I-ORG	0	7	O	O	California	x	x	0
+O	0	8	O	O	(Speech)	x	x	0
+
+O	0	0	O	O	Local	x	x	0
+O	0	1	O	O	Arrangement	x	x	0
+O	0	2	O	O	Co-Chairs	x	x	0
+
+O	0	0	O	O	*	x	x	0
+B-PER	0	1	O	O	James	x	x	0
+I-PER	0	2	O	O	Martin	x	x	0
+O	0	3	O	O	,	x	x	0
+B-ORG	0	4	O	O	University	x	x	0
+I-ORG	0	5	O	O	of	x	x	0
+I-ORG	0	6	O	O	Colorado	x	x	0
+I-ORG	0	7	O	O	at	x	x	0
+I-ORG	0	8	O	O	Boulder	x	x	0
+
+O	0	0	O	O	*	x	x	0
+O	0	1	O	O	[	x	x	0
+O	0	2	O	O	Martha	x	x	0
+O	0	3	O	O	Palmer	x	x	0
+O	0	4	O	O	]	x	x	0
+O	0	5	O	O	,	x	x	0
+B-ORG	0	6	O	O	University	x	x	0
+I-ORG	0	7	O	O	of	x	x	0
+I-ORG	0	8	O	O	Colorado	x	x	0
+I-ORG	0	9	O	O	at	x	x	0
+I-ORG	0	10	O	O	Boulder	x	x	0
+
+O	0	0	O	O	Publicitiy	x	x	0
+O	0	1	O	O	Chairs	x	x	0
+
+O	0	0	O	O	*	x	x	0
+B-PER	0	1	O	O	Matthew	x	x	0
+I-PER	0	2	O	O	Stone	x	x	0
+O	0	3	O	O	(	x	x	0
+B-ORG	0	4	O	O	Rutgers	x	x	0
+O	0	5	O	O	)	x	x	0
+
+O	0	0	O	O	*	x	x	0
+B-PER	0	1	O	O	Gokhan	x	x	0
+I-PER	0	2	O	O	Tur	x	x	0
+O	0	3	O	O	(	x	x	0
+B-ORG	0	4	O	O	SRI	x	x	0
+O	0	5	O	O	)	x	x	0
+
+O	0	0	O	O	*	x	x	0
+B-PER	0	1	O	O	Diana	x	x	0
+I-PER	0	2	O	O	Inkpen	x	x	0
+O	0	3	O	O	(	x	x	0
+B-ORG	0	4	O	O	U	x	x	0
+I-ORG	0	5	O	O	Ottawa	x	x	0
+O	0	6	O	O	)	x	x	0
+
+O	0	0	O	O	Publications	x	x	0
+O	0	1	O	O	Chairs	x	x	0
+
+O	0	0	O	O	*	x	x	0
+B-PER	0	1	O	O	Christy	x	x	0
+I-PER	0	2	O	O	Doran	x	x	0
+O	0	3	O	O	(	x	x	0
+B-ORG	0	4	O	O	MITRE	x	x	0
+O	0	5	O	O	)	x	x	0
+
+O	0	0	O	O	*	x	x	0
+B-PER	0	1	O	O	Eric	x	x	0
+I-PER	0	2	O	O	Ringger	x	x	0
+O	0	3	O	O	(	x	x	0
+B-ORG	0	4	O	O	BYU	x	x	0
+O	0	5	O	O	)	x	x	0
+
+O	0	0	O	O	Tutorials	x	x	0
+O	0	1	O	O	Chairs	x	x	0
+
+O	0	0	O	O	*	x	x	0
+B-PER	0	1	O	O	Ciprian	x	x	0
+I-PER	0	2	O	O	Chelba	x	x	0
+O	0	3	O	O	(	x	x	0
+B-ORG	0	4	O	O	Google	x	x	0
+O	0	5	O	O	)	x	x	0
+
+O	0	0	O	O	*	x	x	0
+B-PER	0	1	O	O	Paul	x	x	0
+I-PER	0	2	O	O	Kantor	x	x	0
+O	0	3	O	O	(	x	x	0
+B-ORG	0	4	O	O	Rutgers	x	x	0
+O	0	5	O	O	)	x	x	0
+
+O	0	0	O	O	*	x	x	0
+B-PER	0	1	O	O	Brian	x	x	0
+I-PER	0	2	O	O	Roark	x	x	0
+O	0	3	O	O	(	x	x	0
+B-ORG	0	4	O	O	OHSU	x	x	0
+O	0	5	O	O	)	x	x	0
+
+O	0	0	O	O	Workshops	x	x	0
+O	0	1	O	O	Chairs	x	x	0
+
+O	0	0	O	O	*	x	x	0
+B-PER	0	1	O	O	Mark	x	x	0
+I-PER	0	2	O	O	Hasegawa-Johnson	x	x	0
+O	0	3	O	O	(	x	x	0
+B-ORG	0	4	O	O	UIUC	x	x	0
+O	0	5	O	O	),	x	x	0
+
+O	0	0	O	O	*	x	x	0
+B-PER	0	1	O	O	Nizar	x	x	0
+I-PER	0	2	O	O	Habash	x	x	0
+O	0	3	O	O	(	x	x	0
+B-ORG	0	4	O	O	Columbia	x	x	0
+O	0	5	O	O	)	x	x	0
+
+O	0	0	O	O	Student	x	x	0
+O	0	1	O	O	research	x	x	0
+O	0	2	O	O	conference	x	x	0
+O	0	3	O	O	Chairs	x	x	0
+
+O	0	0	O	O	*	x	x	0
+B-PER	0	1	O	O	Anoop	x	x	0
+I-PER	0	2	O	O	Sarkar	x	x	0
+O	0	3	O	O	(	x	x	0
+B-ORG	0	4	O	O	Simon	x	x	0
+I-ORG	0	5	O	O	Fraser	x	x	0
+I-ORG	0	6	O	O	U	x	x	0
+O	0	7	O	O	)	x	x	0
+
+O	0	0	O	O	*	x	x	0
+B-PER	0	1	O	O	Carolyn	x	x	0
+I-PER	0	2	O	O	Rose	x	x	0
+O	0	3	O	O	(	x	x	0
+B-ORG	0	4	O	O	CMU	x	x	0
+O	0	5	O	O	)	x	x	0
+
+O	0	0	O	O	Student	x	x	0
+O	0	1	O	O	Doctoral	x	x	0
+O	0	2	O	O	Consortium	x	x	0
+O	0	3	O	O	Co-Chairs	x	x	0
+
+O	0	0	O	O	*	x	x	0
+B-PER	0	1	O	O	Svetlana	x	x	0
+I-PER	0	2	O	O	Stenchikova	x	x	0
+O	0	3	O	O	(	x	x	0
+B-ORG	0	4	O	O	Stony	x	x	0
+I-ORG	0	5	O	O	Brook	x	x	0
+I-ORG	0	6	O	O	University	x	x	0
+O	0	7	O	O	)	x	x	0
+O	0	8	O	O	-	x	x	0
+O	0	9	O	O	Speech	x	x	0
+
+O	0	0	O	O	*	x	x	0
+B-PER	0	1	O	O	Ulrich	x	x	0
+I-PER	0	2	O	O	Germann	x	x	0
+O	0	3	O	O	(	x	x	0
+B-ORG	0	4	O	O	University	x	x	0
+I-ORG	0	5	O	O	of	x	x	0
+I-ORG	0	6	O	O	Toronto	x	x	0
+O	0	7	O	O	)	x	x	0
+O	0	8	O	O	-	x	x	0
+O	0	9	O	O	NLP	x	x	0
+
+O	0	0	O	O	*	x	x	0
+B-PER	0	1	O	O	Chirag	x	x	0
+I-PER	0	2	O	O	Shah	x	x	0
+O	0	3	O	O	(	x	x	0
+B-ORG	0	4	O	O	University	x	x	0
+I-ORG	0	5	O	O	of	x	x	0
+I-ORG	0	6	O	O	North	x	x	0
+I-ORG	0	7	O	O	Carolina	x	x	0
+O	0	8	O	O	)	x	x	0
+O	0	9	O	O	-	x	x	0
+O	0	10	O	O	Information	x	x	0
+O	0	11	O	O	Retrieval	x	x	0
+
+O	0	0	O	O	Demo	x	x	0
+O	0	1	O	O	Chairs	x	x	0
+
+O	0	0	O	O	*	x	x	0
+B-PER	0	1	O	O	Fred	x	x	0
+I-PER	0	2	O	O	Popowich	x	x	0
+O	0	3	O	O	(	x	x	0
+B-ORG	0	4	O	O	U	x	x	0
+I-ORG	0	5	O	O	Alberta	x	x	0
+O	0	6	O	O	)	x	x	0
+
+O	0	0	O	O	*	x	x	0
+B-PER	0	1	O	O	Michael	x	x	0
+I-PER	0	2	O	O	Johnston	x	x	0
+O	0	3	O	O	(	x	x	0
+B-ORG	0	4	O	O	AT&T	x	x	0
+O	0	5	O	O	)	x	x	0
+
+O	0	0	O	O	Sponsorship	x	x	0
+O	0	1	O	O	Chairs	x	x	0
+
+O	0	0	O	O	*	x	x	0
+B-PER	0	1	O	O	Nicolas	x	x	0
+I-PER	0	2	O	O	Nicolov	x	x	0
+O	0	3	O	O	(	x	x	0
+B-ORG	0	4	O	O	JD	x	x	0
+I-ORG	0	5	O	O	Powers	x	x	0
+O	0	6	O	O	)	x	x	0
+
+O	0	0	O	O	*	x	x	0
+B-PER	0	1	O	O	Hitoshi	x	x	0
+I-PER	0	2	O	O	Isahara	x	x	0
+O	0	3	O	O	(	x	x	0
+B-ORG	0	4	O	O	NICT	x	x	0
+O	0	5	O	O	)	x	x	0
+
+O	0	0	O	O	*	x	x	0
+B-PER	0	1	O	O	Philipp	x	x	0
+I-PER	0	2	O	O	Koehn	x	x	0
+O	0	3	O	O	(	x	x	0
+B-ORG	0	4	O	O	U	x	x	0
+I-ORG	0	5	O	O	Edinburgh	x	x	0
+O	0	6	O	O	)	x	x	0
+
+O	0	0	O	O	*	x	x	0
+B-PER	0	1	O	O	Josef	x	x	0
+I-PER	0	2	O	O	van	x	x	0
+I-PER	0	3	O	O	Genabith	x	x	0
+O	0	4	O	O	(	x	x	0
+B-ORG	0	5	O	O	Dublin	x	x	0
+I-ORG	0	6	O	O	City	x	x	0
+I-ORG	0	7	O	O	U	x	x	0
+O	0	8	O	O	)	x	x	0
+
+O	0	0	O	O	Venue	x	x	0
+
+O	0	0	O	O	Conference	x	x	0
+
+O	0	0	O	O	The	x	x	0
+O	0	1	O	O	conference	x	x	0
+O	0	2	O	O	will	x	x	0
+O	0	3	O	O	be	x	x	0
+O	0	4	O	O	held	x	x	0
+O	0	5	O	O	at	x	x	0
+O	0	6	O	O	the	x	x	0
+B-ORG	0	7	O	O	University	x	x	0
+I-ORG	0	8	O	O	of	x	x	0
+I-ORG	0	9	O	O	Colorado	x	x	0
+I-ORG	0	10	O	O	at	x	x	0
+I-ORG	0	11	O	O	Boulder	x	x	0
+
+O	0	0	O	O	Accomodations	x	x	0
+
+O	0	0	O	O	Millennium	x	x	0
+O	0	1	O	O	Harvest	x	x	0
+O	0	2	O	O	House	x	x	0
+
+O	0	0	O	O	Reserve	x	x	0
+O	0	1	O	O	prior	x	x	0
+O	0	2	O	O	to	x	x	0
+O	0	3	O	O	May	x	x	0
+O	0	4	O	O	2nd	x	x	0
+
+O	0	0	O	O	Rate:	x	x	0
+O	0	1	O	O	TBD	x	x	0
+
+O	0	0	O	O	1-800-545-6285	x	x	0
+
+O	0	0	O	O	http://millenniumhotels.com/millenniumboulder/	x	x	0
+
+O	0	0	O	O	Reservation	x	x	0
+O	0	1	O	O	Links	x	x	0
+
+O	0	0	O	O	*	x	x	0
+O	0	1	O	O	Government	x	x	0
+O	0	2	O	O	Block	x	x	0
+
+O	0	0	O	O	*	x	x	0
+O	0	1	O	O	Non-Government	x	x	0
+O	0	2	O	O	Block	x	x	0
+
+O	0	0	O	O	Contact	x	x	0
+O	0	1	O	O	Us	x	x	0
+
+O	0	0	O	O	For	x	x	0
+O	0	1	O	O	additional	x	x	0
+O	0	2	O	O	information	x	x	0
+O	0	3	O	O	contact	x	x	0
+O	0	4	O	O	us	x	x	0
+O	0	5	O	O	at	x	x	0
+O	0	6	O	O	naaclhlt2009@gmail.com.	x	x	0
+
+O	0	0	O	O	For	x	x	0
+O	0	1	O	O	questions	x	x	0
+O	0	2	O	O	related	x	x	0
+O	0	3	O	O	to	x	x	0
+O	0	4	O	O	paper	x	x	0
+O	0	5	O	O	submissions,	x	x	0
+O	0	6	O	O	contact:	x	x	0
+O	0	7	O	O	naacl-hlt09@csail.mit.edu	x	x	0
+
+

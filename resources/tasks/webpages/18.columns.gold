@@ -1,0 +1,410 @@
+O	0	0	O	-X-	-DOCSTART-	x	x	0
+
+O	0	0	O	O	Welcome	x	x	0
+O	0	1	O	O	to	x	x	0
+B-ORG	0	2	O	O	ACL-08:	x	x	0
+I-ORG	0	3	O	O	HLT	x	x	0
+O	0	4	O	O	!	x	x	0
+
+B-ORG	0	0	O	O	ACL-08:	x	x	0
+I-ORG	0	1	O	O	HLT	x	x	0
+O	0	2	O	O	takes	x	x	0
+O	0	3	O	O	place	x	x	0
+O	0	4	O	O	at	x	x	0
+O	0	5	O	O	the	x	x	0
+B-LOC	0	6	O	O	Hyatt	x	x	0
+I-LOC	0	7	O	O	Regency	x	x	0
+I-LOC	0	8	O	O	Hotel	x	x	0
+O	0	9	O	O	in	x	x	0
+O	0	10	O	O	downtown	x	x	0
+B-LOC	0	11	O	O	Columbus,	x	x	0
+I-LOC	0	12	O	O	Ohio	x	x	0
+O	0	13	O	O	.	x	x	0
+O	0	14	O	O	It	x	x	0
+O	0	15	O	O	combines	x	x	0
+O	0	16	O	O	the	x	x	0
+B-ORG	0	17	O	O	Annual	x	x	0
+I-ORG	0	18	O	O	Meeting	x	x	0
+I-ORG	0	19	O	O	of	x	x	0
+I-ORG	0	20	O	O	the	x	x	0
+I-ORG	0	21	O	O	Association	x	x	0
+I-ORG	0	22	O	O	for	x	x	0
+I-ORG	0	23	O	O	Computational	x	x	0
+I-ORG	0	24	O	O	Linguistics	x	x	0
+I-ORG	0	25	O	O	(ACL)	x	x	0
+O	0	26	O	O	with	x	x	0
+O	0	27	O	O	the	x	x	0
+B-ORG	0	28	O	O	Human	x	x	0
+I-ORG	0	29	O	O	Language	x	x	0
+I-ORG	0	30	O	O	Technology	x	x	0
+I-ORG	0	31	O	O	Conference	x	x	0
+I-ORG	0	32	O	O	(HLT)	x	x	0
+O	0	33	O	O	of	x	x	0
+O	0	34	O	O	the	x	x	0
+B-ORG	0	35	O	O	North	x	x	0
+I-ORG	0	36	O	O	American	x	x	0
+I-ORG	0	37	O	O	Chapter	x	x	0
+I-ORG	0	38	O	O	of	x	x	0
+I-ORG	0	39	O	O	the	x	x	0
+I-ORG	0	40	O	O	ACL	x	x	0
+O	0	41	O	O	.	x	x	0
+O	0	42	O	O	The	x	x	0
+O	0	43	O	O	conference	x	x	0
+O	0	44	O	O	covers	x	x	0
+O	0	45	O	O	a	x	x	0
+O	0	46	O	O	broad	x	x	0
+O	0	47	O	O	spectrum	x	x	0
+O	0	48	O	O	of	x	x	0
+O	0	49	O	O	disciplines	x	x	0
+O	0	50	O	O	working	x	x	0
+O	0	51	O	O	towards	x	x	0
+O	0	52	O	O	enabling	x	x	0
+O	0	53	O	O	intelligent	x	x	0
+O	0	54	O	O	systems	x	x	0
+O	0	55	O	O	to	x	x	0
+O	0	56	O	O	interact	x	x	0
+O	0	57	O	O	with	x	x	0
+O	0	58	O	O	humans	x	x	0
+O	0	59	O	O	using	x	x	0
+O	0	60	O	O	natural	x	x	0
+O	0	61	O	O	language,	x	x	0
+O	0	62	O	O	and	x	x	0
+O	0	63	O	O	towards	x	x	0
+O	0	64	O	O	enhancing	x	x	0
+O	0	65	O	O	human-human	x	x	0
+O	0	66	O	O	communication	x	x	0
+O	0	67	O	O	through	x	x	0
+O	0	68	O	O	services	x	x	0
+O	0	69	O	O	such	x	x	0
+O	0	70	O	O	as	x	x	0
+O	0	71	O	O	speech	x	x	0
+O	0	72	O	O	recognition,	x	x	0
+O	0	73	O	O	automatic	x	x	0
+O	0	74	O	O	translation,	x	x	0
+O	0	75	O	O	information	x	x	0
+O	0	76	O	O	retrieval,	x	x	0
+O	0	77	O	O	text	x	x	0
+O	0	78	O	O	summarization,	x	x	0
+O	0	79	O	O	and	x	x	0
+O	0	80	O	O	information	x	x	0
+O	0	81	O	O	extraction.	x	x	0
+
+O	0	0	O	O	The	x	x	0
+B-ORG	0	1	O	O	ACL	x	x	0
+O	0	2	O	O	is	x	x	0
+O	0	3	O	O	proud	x	x	0
+O	0	4	O	O	to	x	x	0
+O	0	5	O	O	present	x	x	0
+O	0	6	O	O	invited	x	x	0
+O	0	7	O	O	talks	x	x	0
+O	0	8	O	O	by	x	x	0
+B-PER	0	9	O	O	Marc	x	x	0
+I-PER	0	10	O	O	Swerts	x	x	0
+O	0	11	O	O	of	x	x	0
+B-ORG	0	12	O	O	Tilburg	x	x	0
+I-ORG	0	13	O	O	University	x	x	0
+O	0	14	O	O	and	x	x	0
+B-PER	0	15	O	O	Susan	x	x	0
+I-PER	0	16	O	O	Dumais	x	x	0
+O	0	17	O	O	of	x	x	0
+B-ORG	0	18	O	O	Microsoft	x	x	0
+I-ORG	0	19	O	O	Research	x	x	0
+O	0	20	O	O	.	x	x	0
+
+O	0	0	O	O	June	x	x	0
+O	0	1	O	O	15,	x	x	0
+O	0	2	O	O	2008	x	x	0
+O	0	3	O	O	Conference	x	x	0
+O	0	4	O	O	Tutorials	x	x	0
+
+O	0	0	O	O	June	x	x	0
+O	0	1	O	O	16-18,	x	x	0
+O	0	2	O	O	2008	x	x	0
+O	0	3	O	O	Main	x	x	0
+O	0	4	O	O	Conference	x	x	0
+
+O	0	0	O	O	June	x	x	0
+O	0	1	O	O	19-20,	x	x	0
+O	0	2	O	O	2008	x	x	0
+O	0	3	O	O	Conference	x	x	0
+O	0	4	O	O	Workshops	x	x	0
+
+O	0	0	O	O	Welcome	x	x	0
+O	0	1	O	O	reception,	x	x	0
+O	0	2	O	O	Sun	x	x	0
+O	0	3	O	O	June	x	x	0
+O	0	4	O	O	15	x	x	0
+
+O	0	0	O	O	Student	x	x	0
+O	0	1	O	O	Lunch,	x	x	0
+O	0	2	O	O	Mon	x	x	0
+O	0	3	O	O	June	x	x	0
+O	0	4	O	O	16	x	x	0
+
+O	0	0	O	O	Banquet,	x	x	0
+O	0	1	O	O	Tues	x	x	0
+O	0	2	O	O	June	x	x	0
+O	0	3	O	O	17	x	x	0
+
+O	0	0	O	O	Accommodation	x	x	0
+O	0	1	O	O	details	x	x	0
+O	0	2	O	O	and	x	x	0
+O	0	3	O	O	travel	x	x	0
+O	0	4	O	O	information	x	x	0
+
+B-ORG	0	0	O	O	ACL-08:	x	x	0
+I-ORG	0	1	O	O	HLT	x	x	0
+O	0	2	O	O	Sponsors	x	x	0
+
+O	0	0	O	O	We	x	x	0
+O	0	1	O	O	gratefully	x	x	0
+O	0	2	O	O	acknowledge	x	x	0
+O	0	3	O	O	the	x	x	0
+O	0	4	O	O	following	x	x	0
+O	0	5	O	O	institutions	x	x	0
+O	0	6	O	O	for	x	x	0
+O	0	7	O	O	their	x	x	0
+O	0	8	O	O	generous	x	x	0
+O	0	9	O	O	sponsorship	x	x	0
+O	0	10	O	O	of	x	x	0
+O	0	11	O	O	this	x	x	0
+O	0	12	O	O	year's	x	x	0
+O	0	13	O	O	conference:	x	x	0
+
+O	0	0	O	O	Gold	x	x	0
+O	0	1	O	O	Level	x	x	0
+
+O	0	0	O	O	Silver	x	x	0
+O	0	1	O	O	Level	x	x	0
+
+O	0	0	O	O	Bronze	x	x	0
+O	0	1	O	O	Level	x	x	0
+
+O	0	0	O	O	Supporter	x	x	0
+O	0	1	O	O	Level	x	x	0
+
+O	0	0	O	O	Contributor	x	x	0
+
+B-ORG	0	0	O	O	IBM	x	x	0
+I-ORG	0	1	O	O	Research	x	x	0
+O	0	2	O	O	(Best	x	x	0
+O	0	3	O	O	Student	x	x	0
+O	0	4	O	O	Paper	x	x	0
+O	0	5	O	O	Award)	x	x	0
+
+B-ORG	0	0	O	O	Language	x	x	0
+I-ORG	0	1	O	O	Weaver	x	x	0
+O	0	2	O	O	(Conference	x	x	0
+O	0	3	O	O	Bag)	x	x	0
+
+B-ORG	0	0	O	O	University	x	x	0
+I-ORG	0	1	O	O	of	x	x	0
+I-ORG	0	2	O	O	Michigan	x	x	0
+I-ORG	0	3	O	O	School	x	x	0
+I-ORG	0	4	O	O	of	x	x	0
+I-ORG	0	5	O	O	Information	x	x	0
+
+O	0	0	O	O	General	x	x	0
+O	0	1	O	O	Conference	x	x	0
+O	0	2	O	O	Chair:	x	x	0
+
+B-PER	0	0	O	O	Kathleen	x	x	0
+I-PER	0	1	O	O	McKeown	x	x	0
+O	0	2	O	O	(	x	x	0
+B-ORG	0	3	O	O	Columbia	x	x	0
+I-ORG	0	4	O	O	University	x	x	0
+O	0	5	O	O	)	x	x	0
+O	0	6	O	O	acl08chair@ling.osu.edu	x	x	0
+
+O	0	0	O	O	Program	x	x	0
+O	0	1	O	O	Co-Chairs:	x	x	0
+
+B-PER	0	0	O	O	Johanna	x	x	0
+I-PER	0	1	O	O	D.	x	x	0
+I-PER	0	2	O	O	Moore	x	x	0
+O	0	3	O	O	(	x	x	0
+B-ORG	0	4	O	O	University	x	x	0
+I-ORG	0	5	O	O	of	x	x	0
+I-ORG	0	6	O	O	Edinburgh	x	x	0
+O	0	7	O	O	)	x	x	0
+O	0	8	O	O	J.Moore@ed.ac.uk	x	x	0
+
+B-PER	0	0	O	O	Simone	x	x	0
+I-PER	0	1	O	O	Teufel	x	x	0
+O	0	2	O	O	(	x	x	0
+B-ORG	0	3	O	O	Cambridge	x	x	0
+I-ORG	0	4	O	O	University	x	x	0
+O	0	5	O	O	)	x	x	0
+O	0	6	O	O	sht25@cl.cam.ac.uk	x	x	0
+
+B-PER	0	0	O	O	James	x	x	0
+I-PER	0	1	O	O	Allan	x	x	0
+O	0	2	O	O	(	x	x	0
+B-ORG	0	3	O	O	University	x	x	0
+I-ORG	0	4	O	O	of	x	x	0
+I-ORG	0	5	O	O	Massachusetts	x	x	0
+O	0	6	O	O	,	x	x	0
+B-LOC	0	7	O	O	Amherst	x	x	0
+O	0	8	O	O	)	x	x	0
+O	0	9	O	O	allan@cs.umass.edu	x	x	0
+
+B-PER	0	0	O	O	Sadaoki	x	x	0
+I-PER	0	1	O	O	Furui	x	x	0
+O	0	2	O	O	(	x	x	0
+B-ORG	0	3	O	O	Tokyo	x	x	0
+I-ORG	0	4	O	O	Institute	x	x	0
+I-ORG	0	5	O	O	of	x	x	0
+I-ORG	0	6	O	O	Technology	x	x	0
+O	0	7	O	O	,	x	x	0
+B-LOC	0	8	O	O	Japan	x	x	0
+O	0	9	O	O	)	x	x	0
+O	0	10	O	O	furui@cs.titech.ac.jp	x	x	0
+
+O	0	0	O	O	Workshop:	x	x	0
+
+B-PER	0	0	O	O	Ming	x	x	0
+I-PER	0	1	O	O	Zhou	x	x	0
+O	0	2	O	O	(	x	x	0
+B-ORG	0	3	O	O	Microsoft	x	x	0
+I-ORG	0	4	O	O	Research	x	x	0
+B-LOC	0	5	O	O	China	x	x	0
+O	0	6	O	O	)	x	x	0
+O	0	7	O	O	mingzhou@microsoft.com	x	x	0
+
+O	0	0	O	O	Tutorials:	x	x	0
+
+B-PER	0	0	O	O	Ani	x	x	0
+I-PER	0	1	O	O	Nenkova	x	x	0
+O	0	2	O	O	(	x	x	0
+B-ORG	0	3	O	O	Univ	x	x	0
+I-ORG	0	4	O	O	of	x	x	0
+I-ORG	0	5	O	O	Pennsylvania	x	x	0
+O	0	6	O	O	,	x	x	0
+B-LOC	0	7	O	O	USA	x	x	0
+O	0	8	O	O	)	x	x	0
+O	0	9	O	O	nenkova@seas.upenn.edu	x	x	0
+
+B-PER	0	0	O	O	Marilyn	x	x	0
+I-PER	0	1	O	O	Walker	x	x	0
+O	0	2	O	O	(	x	x	0
+B-ORG	0	3	O	O	Univ	x	x	0
+I-ORG	0	4	O	O	of	x	x	0
+I-ORG	0	5	O	O	Sheffield	x	x	0
+O	0	6	O	O	,	x	x	0
+B-LOC	0	7	O	O	UK	x	x	0
+O	0	8	O	O	)	x	x	0
+O	0	9	O	O	m.a.walker@sheffield.ac.uk	x	x	0
+
+B-PER	0	0	O	O	Eugene	x	x	0
+I-PER	0	1	O	O	Agichtein	x	x	0
+O	0	2	O	O	(	x	x	0
+B-ORG	0	3	O	O	Emory	x	x	0
+I-ORG	0	4	O	O	University	x	x	0
+O	0	5	O	O	,	x	x	0
+B-LOC	0	6	O	O	USA	x	x	0
+O	0	7	O	O	)	x	x	0
+O	0	8	O	O	eugene@mathcs.emory.edu	x	x	0
+
+O	0	0	O	O	Demos:	x	x	0
+
+B-PER	0	0	O	O	Jimmy	x	x	0
+I-PER	0	1	O	O	Lin	x	x	0
+O	0	2	O	O	(	x	x	0
+B-ORG	0	3	O	O	University	x	x	0
+I-ORG	0	4	O	O	of	x	x	0
+I-ORG	0	5	O	O	Maryland	x	x	0
+O	0	6	O	O	)	x	x	0
+O	0	7	O	O	jimmylin@umd.edu	x	x	0
+
+O	0	0	O	O	Student	x	x	0
+O	0	1	O	O	Co-Chairs:	x	x	0
+
+O	0	0	O	O	Faculty	x	x	0
+O	0	1	O	O	rep:	x	x	0
+B-PER	0	2	O	O	Jan	x	x	0
+I-PER	0	3	O	O	Wiebe	x	x	0
+O	0	4	O	O	(	x	x	0
+B-ORG	0	5	O	O	University	x	x	0
+I-ORG	0	6	O	O	of	x	x	0
+I-ORG	0	7	O	O	Pittsburgh	x	x	0
+O	0	8	O	O	)	x	x	0
+O	0	9	O	O	wiebe@cs.pitt.edu	x	x	0
+
+O	0	0	O	O	Student	x	x	0
+O	0	1	O	O	NL:	x	x	0
+B-PER	0	2	O	O	Wolfgang	x	x	0
+I-PER	0	3	O	O	Maier	x	x	0
+O	0	4	O	O	(	x	x	0
+B-ORG	0	5	O	O	U	x	x	0
+I-ORG	0	6	O	O	of	x	x	0
+I-ORG	0	7	O	O	Tubingen	x	x	0
+O	0	8	O	O	,	x	x	0
+B-LOC	0	9	O	O	Germany	x	x	0
+O	0	10	O	O	)	x	x	0
+O	0	11	O	O	wo.maier@uni-tuebingen.de	x	x	0
+
+O	0	0	O	O	Student	x	x	0
+O	0	1	O	O	Speech:	x	x	0
+B-PER	0	2	O	O	Ebru	x	x	0
+I-PER	0	3	O	O	Arisoy	x	x	0
+O	0	4	O	O	(	x	x	0
+B-ORG	0	5	O	O	Bogazici	x	x	0
+I-ORG	0	6	O	O	University	x	x	0
+O	0	7	O	O	,	x	x	0
+B-LOC	0	8	O	O	Turkey	x	x	0
+O	0	9	O	O	)	x	x	0
+O	0	10	O	O	arisoyeb@boun.edu.tr	x	x	0
+
+O	0	0	O	O	Student	x	x	0
+O	0	1	O	O	IR:	x	x	0
+B-PER	0	2	O	O	Keisuke	x	x	0
+I-PER	0	3	O	O	Inoue	x	x	0
+O	0	4	O	O	(	x	x	0
+B-ORG	0	5	O	O	Syracuse	x	x	0
+I-ORG	0	6	O	O	University	x	x	0
+O	0	7	O	O	,	x	x	0
+B-LOC	0	8	O	O	USA	x	x	0
+O	0	9	O	O	)	x	x	0
+O	0	10	O	O	kinoue@syr.edu	x	x	0
+
+O	0	0	O	O	Local	x	x	0
+O	0	1	O	O	Arrangements:	x	x	0
+
+B-PER	0	0	O	O	Chris	x	x	0
+I-PER	0	1	O	O	Brew	x	x	0
+O	0	2	O	O	cbrew@ling.osu.edu	x	x	0
+
+B-PER	0	0	O	O	Donna	x	x	0
+I-PER	0	1	O	O	Byron	x	x	0
+O	0	2	O	O	dbyron@cse.osu.edu	x	x	0
+
+B-PER	0	0	O	O	Eric	x	x	0
+I-PER	0	1	O	O	Fosler-Lussier	x	x	0
+O	0	2	O	O	fosler@cse.osu.edu	x	x	0
+
+B-PER	0	0	O	O	Detmar	x	x	0
+I-PER	0	1	O	O	Meurers	x	x	0
+O	0	2	O	O	dm@ling.osu.edu	x	x	0
+
+B-PER	0	0	O	O	Michael	x	x	0
+I-PER	0	1	O	O	White	x	x	0
+O	0	2	O	O	mwhite@ling.osu.edu	x	x	0
+
+B-PER	0	0	O	O	DJ	x	x	0
+I-PER	0	1	O	O	Hovermale	x	x	0
+O	0	2	O	O	acl08local@ling.osu.edu	x	x	0
+O	0	3	O	O	(Webmaster)	x	x	0
+
+O	0	0	O	O	back	x	x	0
+O	0	1	O	O	to	x	x	0
+O	0	2	O	O	top	x	x	0
+
+O	0	0	O	O	Copyright	x	x	0
+O	0	1	O	O	©	x	x	0
+O	0	2	O	O	2007	x	x	0
+O	0	3	O	O	The	x	x	0
+B-ORG	0	4	O	O	Ohio	x	x	0
+I-ORG	0	5	O	O	State	x	x	0
+I-ORG	0	6	O	O	University	x	x	0
+
+

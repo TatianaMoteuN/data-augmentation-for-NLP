@@ -1,0 +1,173 @@
+O	0	0	O	-X-	-DOCSTART-	x	x	0
+
+B-PER	0	0	O	O	John	x	x	0
+I-PER	0	1	O	O	Beale	x	x	0
+O	0	2	O	O	's	x	x	0
+O	0	3	O	O	Home	x	x	0
+O	0	4	O	O	Page	x	x	0
+
+O	0	0	O	O	Picture	x	x	0
+O	0	1	O	O	of	x	x	0
+B-PER	0	2	O	O	John	x	x	0
+
+O	0	0	O	O	This	x	x	0
+O	0	1	O	O	is	x	x	0
+O	0	2	O	O	my	x	x	0
+O	0	3	O	O	home	x	x	0
+O	0	4	O	O	page,	x	x	0
+O	0	5	O	O	with	x	x	0
+O	0	6	O	O	examples	x	x	0
+O	0	7	O	O	of	x	x	0
+O	0	8	O	O	some	x	x	0
+O	0	9	O	O	of	x	x	0
+O	0	10	O	O	my	x	x	0
+O	0	11	O	O	hobbies.	x	x	0
+O	0	12	O	O	At	x	x	0
+O	0	13	O	O	the	x	x	0
+O	0	14	O	O	moment,	x	x	0
+O	0	15	O	O	I	x	x	0
+O	0	16	O	O	have	x	x	0
+O	0	17	O	O	some	x	x	0
+O	0	18	O	O	questions	x	x	0
+O	0	19	O	O	and	x	x	0
+O	0	20	O	O	answers	x	x	0
+O	0	21	O	O	about	x	x	0
+O	0	22	O	O	digital	x	x	0
+O	0	23	O	O	video	x	x	0
+O	0	24	O	O	cameras.	x	x	0
+O	0	25	O	O	I	x	x	0
+O	0	26	O	O	also	x	x	0
+O	0	27	O	O	have	x	x	0
+O	0	28	O	O	raytraced	x	x	0
+O	0	29	O	O	images	x	x	0
+O	0	30	O	O	and	x	x	0
+O	0	31	O	O	some	x	x	0
+O	0	32	O	O	utility	x	x	0
+O	0	33	O	O	programs	x	x	0
+O	0	34	O	O	related	x	x	0
+O	0	35	O	O	to	x	x	0
+O	0	36	O	O	computer	x	x	0
+O	0	37	O	O	graphics.	x	x	0
+O	0	38	O	O	Making	x	x	0
+O	0	39	O	O	music	x	x	0
+O	0	40	O	O	is	x	x	0
+O	0	41	O	O	another	x	x	0
+O	0	42	O	O	one	x	x	0
+O	0	43	O	O	of	x	x	0
+O	0	44	O	O	my	x	x	0
+O	0	45	O	O	interests,	x	x	0
+O	0	46	O	O	but	x	x	0
+O	0	47	O	O	I	x	x	0
+O	0	48	O	O	don't	x	x	0
+O	0	49	O	O	have	x	x	0
+O	0	50	O	O	the	x	x	0
+O	0	51	O	O	disk	x	x	0
+O	0	52	O	O	space	x	x	0
+O	0	53	O	O	(well...	x	x	0
+O	0	54	O	O	or	x	x	0
+O	0	55	O	O	the	x	x	0
+O	0	56	O	O	talent)	x	x	0
+O	0	57	O	O	to	x	x	0
+O	0	58	O	O	put	x	x	0
+O	0	59	O	O	it	x	x	0
+O	0	60	O	O	online.	x	x	0
+O	0	61	O	O	To	x	x	0
+O	0	62	O	O	look	x	x	0
+O	0	63	O	O	through	x	x	0
+O	0	64	O	O	my	x	x	0
+O	0	65	O	O	web	x	x	0
+O	0	66	O	O	page,	x	x	0
+O	0	67	O	O	you	x	x	0
+O	0	68	O	O	can	x	x	0
+O	0	69	O	O	look	x	x	0
+O	0	70	O	O	at	x	x	0
+O	0	71	O	O	the	x	x	0
+O	0	72	O	O	index	x	x	0
+O	0	73	O	O	or	x	x	0
+O	0	74	O	O	click	x	x	0
+O	0	75	O	O	on	x	x	0
+O	0	76	O	O	a	x	x	0
+O	0	77	O	O	link	x	x	0
+O	0	78	O	O	below.	x	x	0
+
+O	0	0	O	O	TRV900	x	x	0
+O	0	1	O	O	Camcorder	x	x	0
+
+O	0	0	O	O	GL1	x	x	0
+O	0	1	O	O	Camcorder	x	x	0
+
+O	0	0	O	O	Imaginary	x	x	0
+O	0	1	O	O	Landscapes	x	x	0
+
+O	0	0	O	O	Source:	x	x	0
+O	0	1	O	O	HF-Lab	x	x	0
+O	0	2	O	O	etc.	x	x	0
+
+O	0	0	O	O	A	x	x	0
+O	0	1	O	O	few	x	x	0
+O	0	2	O	O	photographs	x	x	0
+
+O	0	0	O	O	Other	x	x	0
+O	0	1	O	O	landscapes.	x	x	0
+
+O	0	0	O	O	Warp	x	x	0
+O	0	1	O	O	(for	x	x	0
+O	0	2	O	O	GIMP)	x	x	0
+
+O	0	0	O	O	Measurements	x	x	0
+
+O	0	0	O	O	Fractals.	x	x	0
+
+O	0	0	O	O	Go	x	x	0
+O	0	1	O	O	Linux	x	x	0
+
+O	0	0	O	O	Funny	x	x	0
+
+O	0	0	O	O	Lists	x	x	0
+
+O	0	0	O	O	Sailing	x	x	0
+
+O	0	0	O	O	Beale	x	x	0
+O	0	1	O	O	Corner	x	x	0
+
+O	0	0	O	O	Personal	x	x	0
+O	0	1	O	O	Page	x	x	0
+
+O	0	0	O	O	Danse	x	x	0
+O	0	1	O	O	Libre	x	x	0
+
+O	0	0	O	O	Who	x	x	0
+O	0	1	O	O	is	x	x	0
+O	0	2	O	O	this	x	x	0
+
+O	0	0	O	O	guy	x	x	0
+O	0	1	O	O	anyway?	x	x	0
+
+O	0	0	O	O	This	x	x	0
+O	0	1	O	O	page	x	x	0
+O	0	2	O	O	was	x	x	0
+O	0	3	O	O	last	x	x	0
+O	0	4	O	O	changed	x	x	0
+O	0	5	O	O	Jan	x	x	0
+O	0	6	O	O	19	x	x	0
+O	0	7	O	O	2000	x	x	0
+
+O	0	0	O	O	Look	x	x	0
+O	0	1	O	O	at	x	x	0
+O	0	2	O	O	the	x	x	0
+O	0	3	O	O	main	x	x	0
+O	0	4	O	O	guest	x	x	0
+O	0	5	O	O	book	x	x	0
+O	0	6	O	O	or	x	x	0
+O	0	7	O	O	the	x	x	0
+O	0	8	O	O	TRV900	x	x	0
+O	0	9	O	O	guest	x	x	0
+O	0	10	O	O	book.	x	x	0
+
+O	0	0	O	O	Linux	x	x	0
+O	0	1	O	O	Any	x	x	0
+O	0	2	O	O	browser	x	x	0
+O	0	3	O	O	will	x	x	0
+O	0	4	O	O	do	x	x	0
+
+

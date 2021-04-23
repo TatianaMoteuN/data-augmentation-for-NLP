@@ -1,0 +1,493 @@
+O	0	0	O	-X-	-DOCSTART-	x	x	0
+
+B-PER	0	0	O	O	Rajeev	x	x	0
+I-PER	0	1	O	O	Motwani	x	x	0
+
+O	0	0	O	O	Professor	x	x	0
+O	0	1	O	O	and	x	x	0
+O	0	2	O	O	Director	x	x	0
+O	0	3	O	O	of	x	x	0
+O	0	4	O	O	Graduate	x	x	0
+O	0	5	O	O	Studies	x	x	0
+
+B-ORG	0	0	O	O	Database	x	x	0
+I-ORG	0	1	O	O	Group/InfoLab,	x	x	0
+I-ORG	0	2	O	O	and	x	x	0
+I-ORG	0	3	O	O	Foundations	x	x	0
+I-ORG	0	4	O	O	Group	x	x	0
+
+O	0	0	O	O	Computer	x	x	0
+O	0	1	O	O	Science	x	x	0
+O	0	2	O	O	Department	x	x	0
+
+B-ORG	0	0	O	O	Stanford	x	x	0
+I-ORG	0	1	O	O	University	x	x	0
+
+O	0	0	O	O	Ph.D.	x	x	0
+O	0	1	O	O	1988	x	x	0
+O	0	2	O	O	(	x	x	0
+B-MISC	0	3	O	O	Computer	x	x	0
+I-MISC	0	4	O	O	Science	x	x	0
+O	0	5	O	O	,	x	x	0
+B-ORG	0	6	O	O	U.C.	x	x	0
+I-ORG	0	7	O	O	Berkeley	x	x	0
+O	0	8	O	O	)	x	x	0
+
+O	0	0	O	O	B.Tech.	x	x	0
+O	0	1	O	O	1983	x	x	0
+O	0	2	O	O	([MISC	x	x	0
+O	0	3	O	O	Computer	x	x	0
+O	0	4	O	O	Science	x	x	0
+O	0	5	O	O	]	x	x	0
+O	0	6	O	O	,	x	x	0
+B-ORG	0	7	O	O	IIT	x	x	0
+I-ORG	0	8	O	O	Kanpur	x	x	0
+O	0	9	O	O	)	x	x	0
+
+O	0	0	O	O	-----	x	x	0
+
+O	0	0	O	O	Research	x	x	0
+O	0	1	O	O	Interests:	x	x	0
+O	0	2	O	O	Databases,	x	x	0
+O	0	3	O	O	data	x	x	0
+O	0	4	O	O	mining,	x	x	0
+O	0	5	O	O	information	x	x	0
+O	0	6	O	O	retrieval,	x	x	0
+O	0	7	O	O	and	x	x	0
+O	0	8	O	O	web	x	x	0
+O	0	9	O	O	searching.	x	x	0
+O	0	10	O	O	Privacy	x	x	0
+O	0	11	O	O	and	x	x	0
+O	0	12	O	O	security,	x	x	0
+O	0	13	O	O	particularly	x	x	0
+O	0	14	O	O	in	x	x	0
+O	0	15	O	O	the	x	x	0
+O	0	16	O	O	context	x	x	0
+O	0	17	O	O	of	x	x	0
+O	0	18	O	O	databases	x	x	0
+O	0	19	O	O	and	x	x	0
+O	0	20	O	O	information	x	x	0
+O	0	21	O	O	retrieval.	x	x	0
+O	0	22	O	O	Optimization	x	x	0
+O	0	23	O	O	and	x	x	0
+O	0	24	O	O	scheduling	x	x	0
+O	0	25	O	O	problems,	x	x	0
+O	0	26	O	O	particularly	x	x	0
+O	0	27	O	O	for	x	x	0
+O	0	28	O	O	applications	x	x	0
+O	0	29	O	O	in	x	x	0
+O	0	30	O	O	computer	x	x	0
+O	0	31	O	O	systems,	x	x	0
+O	0	32	O	O	compilers,	x	x	0
+O	0	33	O	O	and	x	x	0
+O	0	34	O	O	databases.	x	x	0
+O	0	35	O	O	Computational	x	x	0
+O	0	36	O	O	and	x	x	0
+O	0	37	O	O	combinatorial	x	x	0
+O	0	38	O	O	geometry	x	x	0
+O	0	39	O	O	with	x	x	0
+O	0	40	O	O	applications	x	x	0
+O	0	41	O	O	to	x	x	0
+O	0	42	O	O	robotics	x	x	0
+O	0	43	O	O	and	x	x	0
+O	0	44	O	O	vision.	x	x	0
+O	0	45	O	O	Computational	x	x	0
+O	0	46	O	O	biology	x	x	0
+O	0	47	O	O	and	x	x	0
+O	0	48	O	O	automated	x	x	0
+O	0	49	O	O	drug	x	x	0
+O	0	50	O	O	design.	x	x	0
+O	0	51	O	O	Design	x	x	0
+O	0	52	O	O	and	x	x	0
+O	0	53	O	O	analysis	x	x	0
+O	0	54	O	O	of	x	x	0
+O	0	55	O	O	algorithms	x	x	0
+O	0	56	O	O	with	x	x	0
+O	0	57	O	O	emphasis	x	x	0
+O	0	58	O	O	on	x	x	0
+O	0	59	O	O	approximations,	x	x	0
+O	0	60	O	O	online	x	x	0
+O	0	61	O	O	computations,	x	x	0
+O	0	62	O	O	and	x	x	0
+O	0	63	O	O	randomized	x	x	0
+O	0	64	O	O	algorithms,	x	x	0
+O	0	65	O	O	as	x	x	0
+O	0	66	O	O	well	x	x	0
+O	0	67	O	O	as	x	x	0
+O	0	68	O	O	related	x	x	0
+O	0	69	O	O	complexity	x	x	0
+O	0	70	O	O	theory.	x	x	0
+
+O	0	0	O	O	Biographical	x	x	0
+O	0	1	O	O	Information	x	x	0
+
+O	0	0	O	O	-----	x	x	0
+
+O	0	0	O	O	Table	x	x	0
+O	0	1	O	O	of	x	x	0
+O	0	2	O	O	Contents:	x	x	0
+
+O	0	0	O	O	*	x	x	0
+O	0	1	O	O	Research	x	x	0
+O	0	2	O	O	Projects	x	x	0
+O	0	3	O	O	(	x	x	0
+B-MISC	0	4	O	O	Algorithms	x	x	0
+O	0	5	O	O	,	x	x	0
+B-MISC	0	6	O	O	DataMining/Internet/Web/Search	x	x	0
+O	0	7	O	O	,	x	x	0
+B-MISC	0	8	O	O	Databases/Streams	x	x	0
+O	0	9	O	O	,	x	x	0
+B-MISC	0	10	O	O	Privacy	x	x	0
+O	0	11	O	O	,	x	x	0
+B-MISC	0	12	O	O	P2P	x	x	0
+O	0	13	O	O	,	x	x	0
+B-MISC	0	14	O	O	Drug	x	x	0
+I-MISC	0	15	O	O	Design	x	x	0
+O	0	16	O	O	,	x	x	0
+B-MISC	0	17	O	O	Robotics	x	x	0
+O	0	18	O	O	).	x	x	0
+
+O	0	0	O	O	*	x	x	0
+O	0	1	O	O	Graduate	x	x	0
+O	0	2	O	O	Students	x	x	0
+O	0	3	O	O	(Current	x	x	0
+O	0	4	O	O	and	x	x	0
+O	0	5	O	O	"Graduated").	x	x	0
+
+O	0	0	O	O	*	x	x	0
+O	0	1	O	O	Publications	x	x	0
+
+O	0	0	O	O	*	x	x	0
+O	0	1	O	O	Books	x	x	0
+O	0	2	O	O	&	x	x	0
+O	0	3	O	O	Book	x	x	0
+O	0	4	O	O	Chapters	x	x	0
+
+O	0	0	O	O	*	x	x	0
+O	0	1	O	O	Recent	x	x	0
+O	0	2	O	O	and	x	x	0
+O	0	3	O	O	Forthcoming	x	x	0
+O	0	4	O	O	Talks	x	x	0
+
+O	0	0	O	O	*	x	x	0
+O	0	1	O	O	Teaching	x	x	0
+O	0	2	O	O	and	x	x	0
+O	0	3	O	O	Courses	x	x	0
+O	0	4	O	O	(Spring	x	x	0
+O	0	5	O	O	07-08:	x	x	0
+O	0	6	O	O	CS	x	x	0
+O	0	7	O	O	154	x	x	0
+O	0	8	O	O	-	x	x	0
+B-MISC	0	9	O	O	Automata	x	x	0
+I-MISC	0	10	O	O	&	x	x	0
+I-MISC	0	11	O	O	Complexity	x	x	0
+I-MISC	0	12	O	O	Theory	x	x	0
+O	0	13	O	O	)	x	x	0
+
+O	0	0	O	O	*	x	x	0
+O	0	1	O	O	Selected	x	x	0
+O	0	2	O	O	Awards	x	x	0
+O	0	3	O	O	and	x	x	0
+O	0	4	O	O	Honors	x	x	0
+
+O	0	0	O	O	*	x	x	0
+O	0	1	O	O	Professional	x	x	0
+O	0	2	O	O	Activities:	x	x	0
+
+O	0	0	O	O	*	x	x	0
+O	0	1	O	O	Journal	x	x	0
+O	0	2	O	O	Editorial	x	x	0
+O	0	3	O	O	Boards:	x	x	0
+B-MISC	0	4	O	O	ACM	x	x	0
+I-MISC	0	5	O	O	Transactions	x	x	0
+I-MISC	0	6	O	O	on	x	x	0
+I-MISC	0	7	O	O	Knowledge	x	x	0
+I-MISC	0	8	O	O	Discovery	x	x	0
+I-MISC	0	9	O	O	from	x	x	0
+I-MISC	0	10	O	O	Data	x	x	0
+
+B-MISC	0	0	O	O	Journal	x	x	0
+I-MISC	0	1	O	O	of	x	x	0
+I-MISC	0	2	O	O	Computer	x	x	0
+I-MISC	0	3	O	O	and	x	x	0
+I-MISC	0	4	O	O	System	x	x	0
+I-MISC	0	5	O	O	Sciences	x	x	0
+
+B-MISC	0	0	O	O	SIAM	x	x	0
+I-MISC	0	1	O	O	Journal	x	x	0
+I-MISC	0	2	O	O	on	x	x	0
+I-MISC	0	3	O	O	Computing	x	x	0
+
+B-MISC	0	0	O	O	IEEE	x	x	0
+I-MISC	0	1	O	O	Transactions	x	x	0
+I-MISC	0	2	O	O	on	x	x	0
+I-MISC	0	3	O	O	Knowledge	x	x	0
+I-MISC	0	4	O	O	and	x	x	0
+I-MISC	0	5	O	O	Data	x	x	0
+I-MISC	0	6	O	O	Engineering	x	x	0
+O	0	7	O	O	(2002-2007)	x	x	0
+
+O	0	0	O	O	*	x	x	0
+O	0	1	O	O	Current	x	x	0
+O	0	2	O	O	Program	x	x	0
+O	0	3	O	O	Committees:	x	x	0
+B-MISC	0	4	O	O	SODA	x	x	0
+I-MISC	0	5	O	O	2009	x	x	0
+O	0	6	O	O	,	x	x	0
+B-MISC	0	7	O	O	WINE	x	x	0
+I-MISC	0	8	O	O	2008	x	x	0
+O	0	9	O	O	,	x	x	0
+B-MISC	0	10	O	O	SIAM	x	x	0
+I-MISC	0	11	O	O	Annual	x	x	0
+I-MISC	0	12	O	O	Meeting	x	x	0
+I-MISC	0	13	O	O	2008	x	x	0
+O	0	14	O	O	,	x	x	0
+B-MISC	0	15	O	O	WSDM	x	x	0
+I-MISC	0	16	O	O	2008	x	x	0
+O	0	17	O	O	,	x	x	0
+B-MISC	0	18	O	O	KDD	x	x	0
+I-MISC	0	19	O	O	2008	x	x	0
+O	0	20	O	O	,	x	x	0
+B-MISC	0	21	O	O	SIGMOD	x	x	0
+I-MISC	0	22	O	O	2007	x	x	0
+O	0	23	O	O	,	x	x	0
+B-MISC	0	24	O	O	ICDE	x	x	0
+I-MISC	0	25	O	O	2007	x	x	0
+O	0	26	O	O	,	x	x	0
+
+O	0	0	O	O	*	x	x	0
+O	0	1	O	O	Past	x	x	0
+O	0	2	O	O	Conference	x	x	0
+O	0	3	O	O	Program	x	x	0
+O	0	4	O	O	Committees	x	x	0
+
+O	0	0	O	O	*	x	x	0
+O	0	1	O	O	Vice-Chair,	x	x	0
+O	0	2	O	O	Executive	x	x	0
+O	0	3	O	O	Committee,	x	x	0
+B-MISC	0	4	O	O	ACM	x	x	0
+I-MISC	0	5	O	O	SIGACT	x	x	0
+O	0	6	O	O	(2001-2005)	x	x	0
+O	0	7	O	O	.	x	x	0
+
+O	0	0	O	O	*	x	x	0
+O	0	1	O	O	Want	x	x	0
+O	0	2	O	O	to	x	x	0
+O	0	3	O	O	contact	x	x	0
+O	0	4	O	O	me	x	x	0
+O	0	5	O	O	or	x	x	0
+O	0	6	O	O	my	x	x	0
+O	0	7	O	O	admin?	x	x	0
+
+O	0	0	O	O	*	x	x	0
+O	0	1	O	O	Other	x	x	0
+O	0	2	O	O	Links.	x	x	0
+
+O	0	0	O	O	-----	x	x	0
+
+O	0	0	O	O	Recent	x	x	0
+O	0	1	O	O	survey	x	x	0
+O	0	2	O	O	talks	x	x	0
+O	0	3	O	O	on	x	x	0
+O	0	4	O	O	Data	x	x	0
+O	0	5	O	O	Streams:	x	x	0
+
+B-MISC	0	0	O	O	Randomization	x	x	0
+I-MISC	0	1	O	O	for	x	x	0
+I-MISC	0	2	O	O	Massive	x	x	0
+I-MISC	0	3	O	O	and	x	x	0
+I-MISC	0	4	O	O	Streaming	x	x	0
+I-MISC	0	5	O	O	Data	x	x	0
+I-MISC	0	6	O	O	Sets	x	x	0
+
+B-MISC	0	0	O	O	Stanford	x	x	0
+I-MISC	0	1	O	O	Computer	x	x	0
+I-MISC	0	2	O	O	Science	x	x	0
+I-MISC	0	3	O	O	Forum	x	x	0
+I-MISC	0	4	O	O	-	x	x	0
+I-MISC	0	5	O	O	Annual	x	x	0
+I-MISC	0	6	O	O	Affiliates	x	x	0
+I-MISC	0	7	O	O	Meeting	x	x	0
+O	0	8	O	O	,	x	x	0
+B-ORG	0	9	O	O	Stanford	x	x	0
+O	0	10	O	O	,	x	x	0
+O	0	11	O	O	May	x	x	0
+O	0	12	O	O	2003.	x	x	0
+
+O	0	0	O	O	Here	x	x	0
+O	0	1	O	O	are	x	x	0
+O	0	2	O	O	the	x	x	0
+O	0	3	O	O	slides	x	x	0
+O	0	4	O	O	from	x	x	0
+O	0	5	O	O	this	x	x	0
+O	0	6	O	O	talk.	x	x	0
+
+B-MISC	0	0	O	O	Models	x	x	0
+I-MISC	0	1	O	O	and	x	x	0
+I-MISC	0	2	O	O	Issues	x	x	0
+I-MISC	0	3	O	O	in	x	x	0
+I-MISC	0	4	O	O	Data	x	x	0
+I-MISC	0	5	O	O	Stream	x	x	0
+I-MISC	0	6	O	O	Systems	x	x	0
+
+B-MISC	0	0	O	O	PODS	x	x	0
+I-MISC	0	1	O	O	Plenary	x	x	0
+I-MISC	0	2	O	O	Talk	x	x	0
+O	0	3	O	O	at	x	x	0
+O	0	4	O	O	the	x	x	0
+B-MISC	0	5	O	O	ACM	x	x	0
+I-MISC	0	6	O	O	SIGMOD/PODS	x	x	0
+O	0	7	O	O	2002	x	x	0
+O	0	8	O	O	Conference,	x	x	0
+O	0	9	O	O	June	x	x	0
+O	0	10	O	O	2002.	x	x	0
+
+O	0	0	O	O	Here	x	x	0
+O	0	1	O	O	are	x	x	0
+O	0	2	O	O	the	x	x	0
+O	0	3	O	O	slides	x	x	0
+O	0	4	O	O	from	x	x	0
+O	0	5	O	O	this	x	x	0
+O	0	6	O	O	talk.	x	x	0
+
+O	0	0	O	O	If	x	x	0
+O	0	1	O	O	I	x	x	0
+O	0	2	O	O	had	x	x	0
+O	0	3	O	O	more	x	x	0
+O	0	4	O	O	time	x	x	0
+O	0	5	O	O	(say	x	x	0
+O	0	6	O	O	3	x	x	0
+O	0	7	O	O	hours	x	x	0
+O	0	8	O	O	:)),	x	x	0
+O	0	9	O	O	here	x	x	0
+O	0	10	O	O	are	x	x	0
+O	0	11	O	O	the	x	x	0
+O	0	12	O	O	slides	x	x	0
+O	0	13	O	O	I	x	x	0
+O	0	14	O	O	would	x	x	0
+O	0	15	O	O	have	x	x	0
+O	0	16	O	O	used.	x	x	0
+
+O	0	0	O	O	-----	x	x	0
+
+B-MISC	0	0	O	O	Introduction	x	x	0
+I-MISC	0	1	O	O	to	x	x	0
+I-MISC	0	2	O	O	Automata	x	x	0
+I-MISC	0	3	O	O	Theory,	x	x	0
+
+I-MISC	0	0	O	O	Languages,	x	x	0
+I-MISC	0	1	O	O	and	x	x	0
+I-MISC	0	2	O	O	Computation	x	x	0
+
+O	0	0	O	O	(with	x	x	0
+B-PER	0	1	O	O	Hopcroft	x	x	0
+O	0	2	O	O	and	x	x	0
+B-PER	0	3	O	O	Ullman	x	x	0
+O	0	4	O	O	)	x	x	0
+
+B-ORG	0	0	O	O	Addison-Wesley	x	x	0
+O	0	1	O	O	,	x	x	0
+O	0	2	O	O	2000.	x	x	0
+
+B-PER	0	0	O	O	Jeff	x	x	0
+I-PER	0	1	O	O	Ullman	x	x	0
+O	0	2	O	O	maintains	x	x	0
+O	0	3	O	O	the	x	x	0
+O	0	4	O	O	book	x	x	0
+O	0	5	O	O	web	x	x	0
+O	0	6	O	O	page.	x	x	0
+
+B-MISC	0	0	O	O	Randomized	x	x	0
+I-MISC	0	1	O	O	Algorithms	x	x	0
+
+O	0	0	O	O	(with	x	x	0
+B-PER	0	1	O	O	Raghavan	x	x	0
+O	0	2	O	O	)	x	x	0
+
+B-ORG	0	0	O	O	Cambridge	x	x	0
+I-ORG	0	1	O	O	University	x	x	0
+I-ORG	0	2	O	O	Press	x	x	0
+O	0	3	O	O	,	x	x	0
+O	0	4	O	O	1995.	x	x	0
+
+O	0	0	O	O	-----	x	x	0
+
+B-PER	0	0	O	O	Rajeev	x	x	0
+I-PER	0	1	O	O	Motwani	x	x	0
+
+O	0	0	O	O	Department	x	x	0
+O	0	1	O	O	of	x	x	0
+O	0	2	O	O	Computer	x	x	0
+O	0	3	O	O	Science	x	x	0
+
+B-LOC	0	0	O	O	Room	x	x	0
+I-LOC	0	1	O	O	474	x	x	0
+
+I-LOC	0	0	O	O	Gates	x	x	0
+I-LOC	0	1	O	O	Computer	x	x	0
+I-LOC	0	2	O	O	Science	x	x	0
+I-LOC	0	3	O	O	Building	x	x	0
+I-LOC	0	4	O	O	4B	x	x	0
+
+B-ORG	0	0	O	O	Stanford	x	x	0
+I-ORG	0	1	O	O	University	x	x	0
+
+B-LOC	0	0	O	O	Stanford,	x	x	0
+I-LOC	0	1	O	O	CA	x	x	0
+I-LOC	0	2	O	O	94305-9045	x	x	0
+
+O	0	0	O	O	Phones:	x	x	0
+O	0	1	O	O	650-723-6045	x	x	0
+O	0	2	O	O	(office)	x	x	0
+
+O	0	0	O	O	650-725-4671	x	x	0
+O	0	1	O	O	(fax)	x	x	0
+
+O	0	0	O	O	"first	x	x	0
+O	0	1	O	O	name"	x	x	0
+O	0	2	O	O	AT	x	x	0
+O	0	3	O	O	cs.stanford.edu	x	x	0
+
+O	0	0	O	O	Admin:	x	x	0
+B-PER	0	1	O	O	Lynda	x	x	0
+I-PER	0	2	O	O	Harris	x	x	0
+
+O	0	0	O	O	Department	x	x	0
+O	0	1	O	O	of	x	x	0
+O	0	2	O	O	Computer	x	x	0
+O	0	3	O	O	Science	x	x	0
+
+O	0	0	O	O	Room	x	x	0
+O	0	1	O	O	495	x	x	0
+
+B-LOC	0	0	O	O	Gates	x	x	0
+I-LOC	0	1	O	O	Computer	x	x	0
+I-LOC	0	2	O	O	Science	x	x	0
+I-LOC	0	3	O	O	Building	x	x	0
+I-LOC	0	4	O	O	4B	x	x	0
+
+B-ORG	0	0	O	O	Stanford	x	x	0
+I-ORG	0	1	O	O	University	x	x	0
+
+B-ORG	0	0	O	O	Stanford,	x	x	0
+I-ORG	0	1	O	O	CA	x	x	0
+I-ORG	0	2	O	O	94305-9045	x	x	0
+
+O	0	0	O	O	Phones:	x	x	0
+O	0	1	O	O	650-723-4377	x	x	0
+O	0	2	O	O	(office)	x	x	0
+
+O	0	0	O	O	650-725-4671	x	x	0
+O	0	1	O	O	(fax)	x	x	0
+
+O	0	0	O	O	"first	x	x	0
+O	0	1	O	O	name"@cs.stanford.edu	x	x	0
+
+O	0	0	O	O	Directions	x	x	0
+O	0	1	O	O	to	x	x	0
+B-LOC	0	2	O	O	Gates	x	x	0
+I-LOC	0	3	O	O	Building	x	x	0
+
+O	0	0	O	O	-----	x	x	0
+
+

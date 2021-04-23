@@ -15,8 +15,9 @@
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
 
-from mapping import twitter_ner_mapped
+from agg import generate_collection
 
-twitter = twitter_ner_mapped()
+
+corpus =
 
 print(twitter.train[64].to_tagged_string('ner'))

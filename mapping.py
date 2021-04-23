@@ -14,8 +14,7 @@ from pathlib import Path
 from flair.datasets import (
     TWITTER_NER,
     WIKIGOLD_NER,
-    MIT_MOVIE_NER_SIMPLE,
-    MIT_RESTAURANT_NER,
+    WEBPAGES_NER,
     ColumnCorpus
 )
 from flair.data import Corpus
@@ -39,7 +38,7 @@ log = logging.getLogger("flair")
 
 def twitter_ner_mapped():
     corpus_mapped = TWITTER_NER(
-            label_name_map={'facility': 'ORG','movie': 'MISC','product': 'MISC','sportsteam': 'ORG','tvshow': 'ORG','other': 'MISC','person': 'PER','geo-loc': 'LOC','company': 'ORG','band': 'ORG', 'musicartist':'PER'}
+            label_name_map={'facility': 'O','movie': 'O','product': 'O','sportsteam': 'ORG','tvshow': 'O','other': 'O','person': 'PER','geo-loc': 'LOC','company': 'ORG', 'musicartist':'O'}
     )
     return corpus_mapped
 
@@ -54,9 +53,14 @@ def onto_ner_mapped():
             "resources/tasks/onto-ner",
             column_format={0: "text", 1: "pos", 2: "upos", 3: "ner"},
             tag_to_bioes="ner",
-            label_name_map={'NORP': 'ORG', 'FAC': 'LOC', 'GPE': 'LOC', 'CARDINAL': 'MISC', 'DATE': 'MISC', 'EVENT': 'MISC',
-                        'LANGUAGE': 'MISC', 'LAW': 'MISC', 'MONEY': 'MISC', 'ORDINAL': 'MISC', 'PERCENT': 'MISC',
-                        'PRODUCT': 'MISC', 'QUANTITY': 'MISC', 'TIME': 'MISC', 'WORK_OF_ART': 'MISC', 'LOC': 'LOC',
+            label_name_map={'NORP': 'MISC', 'FAC': 'O', 'GPE': 'LOC', 'CARDINAL': 'O', 'DATE': 'O', 'EVENT': 'O',
+                        'LANGUAGE': 'MISC', 'LAW': 'O', 'MONEY': 'O', 'ORDINAL': 'O', 'PERCENT': 'O',
+                        'PRODUCT': 'MISC', 'QUANTITY': 'O', 'TIME': 'O', 'WORK_OF_ART': 'O', 'LOC': 'LOC',
                         'ORG': 'ORG', 'PERSON': 'PER'}
     )
     return corpus_mapped
+
+
+def webpages_ner_mapped():
+    scorpus = WEBPAGES_NER()
+    return scorpus
