@@ -52,11 +52,10 @@ def onto_ner_mapped():
     corpus_mapped: Corpus = ColumnCorpus(
             "resources/tasks/onto-ner",
             column_format={0: "text", 1: "pos", 2: "upos", 3: "ner"},
-            tag_to_bioes="ner",
+            #tag_to_bioes="ner",
             label_name_map={'NORP': 'MISC', 'FAC': 'LOC', 'GPE': 'LOC', 'CARDINAL': 'O', 'DATE': 'O', 'EVENT': 'MISC',
                         'LANGUAGE': 'MISC', 'LAW': 'MISC', 'MONEY': 'O', 'ORDINAL': 'O', 'PERCENT': 'O',
-                        'PRODUCT': 'MISC', 'QUANTITY': 'O', 'TIME': 'O', 'WORK_OF_ART': 'MISC', 'LOC': 'LOC',
-                        'ORG': 'ORG', 'PERSON': 'PER'}
+                        'PRODUCT': 'MISC', 'QUANTITY': 'O', 'TIME': 'O', 'WORK_OF_ART': 'MISC', 'LOC': 'LOC', 'PERSON': 'PER'}
     )
     return corpus_mapped
 

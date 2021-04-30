@@ -15,9 +15,13 @@
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
 
-from agg import generate_collection
 
+from flair.datasets import CONLL_03
+from mapping import (
+        twitter_ner_mapped,
+        onto_ner_mapped,
+        wikigold_ner_mapped
+    )
+corpus = onto_ner_mapped()
 
-corpus =
-
-print(twitter.train[64].to_tagged_string('ner'))
+print(corpus.train[6].to_tagged_string('ner'))
