@@ -14,14 +14,27 @@
 #     print_hi('PyCharm')
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
-
-
+import nlpaug
 from flair.datasets import CONLL_03
-from mapping import (
-        twitter_ner_mapped,
-        onto_ner_mapped,
-        wikigold_ner_mapped
-    )
-corpus = onto_ner_mapped()
+# from mapping import (
+#         twitter_ner_mapped,
+#         onto_ner_mapped,
+#         wikigold_ner_mapped
+#     )
 
-print(corpus.train[6].to_tagged_string('ner'))
+from nlpaugment import(
+    ocr_aug,
+    keyboard_aug,
+    random_insert_aug,
+    random_subtitute_aug,
+    random_swap_aug,
+    random_delete_aug
+)
+corpus = CONLL_03()
+print(corpus)
+augm = random_delete_aug(corpus)
+print(augm)
+print(augm.train[40])
+#corpus = onto_ner_mapped()
+
+#print(corpus.train[6].to_tagged_string('ner'))

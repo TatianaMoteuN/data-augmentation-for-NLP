@@ -10,6 +10,15 @@ from flair.embeddings import (
     FlairEmbeddings,
     CharacterEmbeddings,
 )
+
+from nlpaugment import(
+    ocr_aug,
+    keyboard_aug,
+    random_insert_aug,
+    random_subtitute_aug,
+    random_swap_aug,
+    random_delete_aug
+)
 from flair.training_utils import EvaluationMetric
 from flair.visual.training_curves import Plotter
 

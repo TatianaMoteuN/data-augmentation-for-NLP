@@ -25,7 +25,7 @@ for seed in [1,2,3]:
         corpus = onto_ner_mapped()
 
     flair.set_seed(seed)
-    tagger: SequenceTagger = SequenceTagger.load(f'resources/taggers/{dataset_source_name}_glove_{seed}/best-model.pt')
+    tagger: SequenceTagger = SequenceTagger.load(f'resources/taggers/char_aug/{dataset_source_name}_ocr_glove_{seed}/best-model.pt')
     print(tagger.tag_type)
 
 
@@ -33,5 +33,5 @@ for seed in [1,2,3]:
 
 
 
-    result, score = tagger.evaluate(corpus.test, f'resources/{dataset_target_name}_glove_{seed}', mini_batch_size=32)
+    result, score = tagger.evaluate(corpus.test, f'resources/char_aug/{dataset_target_name}_ocr_glove_{seed}', mini_batch_size=32)
     print(result.detailed_results)
