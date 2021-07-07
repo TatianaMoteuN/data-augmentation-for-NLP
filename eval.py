@@ -1,13 +1,15 @@
-# 1. get the corpus
-import  flair
+
+import flair
 from flair.datasets import CONLL_03
-from mapping import twitter_ner_mapped
-from mapping import onto_ner_mapped
-from mapping import wikigold_ner_mapped
-from mapping import webpages_ner_mapped
+from mapping import (
+        twitter_ner_mapped,
+        onto_ner_mapped,
+        wikigold_ner_mapped,
+        webpages_ner_mapped
+    )
 from flair.models import SequenceTagger
 
-# English
+# 1. get the corpus
 dataset_source_name = "conll3"
 dataset_target_name = "conll3"
 for seed in [1,2,3]:
@@ -25,13 +27,12 @@ for seed in [1,2,3]:
         corpus = onto_ner_mapped()
 
     flair.set_seed(seed)
+
     tagger: SequenceTagger = SequenceTagger.load(f'resources/taggers/char_aug/{dataset_source_name}_ocr_glove_{seed}/best-model.pt')
     print(tagger.tag_type)
 
 
-    # corpus
 
-
-
+    # result
     result, score = tagger.evaluate(corpus.test, f'resources/char_aug/{dataset_target_name}_ocr_glove_{seed}', mini_batch_size=32)
     print(result.detailed_results)
