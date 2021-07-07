@@ -1,7 +1,12 @@
+import torch
+import nlpaug
+import flair
 from torch.optim.adam import Adam
 
-from flair.data import Corpus
-from flair.datasets import CONLL_03
+from flair.data import Corpus, Token
+from flair.datasets import CONLL_03, SentenceDataset
+from typing import List
+
 from mapping import (
         twitter_ner_mapped,
         onto_ner_mapped,
@@ -9,7 +14,7 @@ from mapping import (
         webpages_ner_mapped
     )
 
-import flair
+
 flair.device = 'cuda:0'
 from nlpaugment import(
     punctuation_aug,
@@ -21,23 +26,26 @@ from nlpaugment import(
     random_swap_aug,
     random_delete_aug
 )
-import nlpaug
-from flair.data import  Token
-import nlpaug.augmenter.char as nac
-import nlpaug.augmenter.word as naw
-import nlpaug.augmenter.sentence as nas
-import nlpaug.flow as nafc
-from nlpaug.util import Action
+
+from flair.embeddings import(
+        TransformerDocumentEmbeddings,
+        TokenEmbeddings,
+        WordEmbeddings,
+        StackedEmbeddings,
+        FlairEmbeddings,
+        CharacterEmbeddings
+)
+
 from flair.training_utils import EvaluationMetric
-from flair.visual.training_curves import Plotter
 from flair.embeddings import TransformerDocumentEmbeddings
 from flair.models import TextClassifier
 from flair.trainers import ModelTrainer
 
 
 # 1. get the corpus
-# load corpus
+
 dataset_name = "conll3"
+
 
 for seed in [1,2,3]:
     flair.set_seed(123)
@@ -56,29 +64,55 @@ for seed in [1,2,3]:
 
     flair.set_seed(seed)
 
+    # 2. what tag do we want to predict?
+    tag_type = 'ner'
+
+    # define the augment type
     augm = ocr_aug(corpus)
 
+    # 2. make the tag  dictionary from the corpus
+    tag_dictionary = augm.make_tag_dictionary(tag_type=tag_type)
 
-    # 2. create the label dictionary
-    label_dict = augm.make_label_dictionary()
+    # 4. initialize fine-tuneable transformer embeddings WITH document context
+    from flair.embeddings import TransformerWordEmbeddings
 
-    # 3. initialize transformer document embeddings (many models are available)
-    document_embeddings = TransformerDocumentEmbeddings('bert-base-uncased', fine_tune=True)
+    embeddings = TransformerWordEmbeddings(
+        model='xlm-roberta-large',
+        layers="-1",
+        subtoken_pooling="first",
+        fine_tune=True,
+        context_dropout=0.,
+    )
 
-    # 4. create the text classifier
-    classifier = TextClassifier(document_embeddings, label_dictionary=label_dict)
+    # 5. initialize bare-bones sequence tagger (no CRF, no RNN, no reprojection)
+    from flair.models import SequenceTagger
 
-    # 5. initialize the text classifier trainer with Adam optimizer
-    trainer = ModelTrainer(classifier, augm, optimizer=Adam)
+    tagger = SequenceTagger(
+        hidden_size=256,
+        embeddings=embeddings,
+        tag_dictionary=tag_dictionary,
+        tag_type=tag_type,
+        use_crf=False,
+        use_rnn=False,
+        reproject_embeddings=False,
+    )
 
-    # 6. start the training
-    trainer.train(f"resources/taggers/char_aug/{dataset_name}_ocr_bert-base-uncased_{seed}",
-                  learning_rate=3e-5, # use very small learning rate
-                  mini_batch_size=16,
-                  mini_batch_chunk_size=4, # optionally set this if transformer is too much for your machine
-                  max_epochs=50, # terminate after 50 epochs
-                  save_final_model= True,
-                  shuffle= True,
+    # 6. initialize trainer with AdamW optimizer
+    from flair.trainers import ModelTrainer
 
+    trainer = ModelTrainer(tagger, augm, optimizer=torch.optim.AdamW)
+
+    # 7. run training with XLM parameters (20 epochs, small LR)
+    from torch.optim.lr_scheduler import OneCycleLR
+
+    trainer.train(f"resources/taggers/char_aug/{dataset_name}_ner-english-large_{seed}",
+                  learning_rate=5.0e-6,
+                  mini_batch_size=4,
+                  mini_batch_chunk_size=1,
+                  train_with_dev=True,
+                  max_epochs=50,
+                  scheduler=OneCycleLR,
+                  embeddings_storage_mode='none',
+                  weight_decay=0.,
+                  shuffle=True,
                   )
-    trainer.train()

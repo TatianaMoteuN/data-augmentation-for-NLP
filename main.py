@@ -38,3 +38,6 @@ print(augm.train[40])
 #corpus = onto_ner_mapped()
 
 #print(corpus.train[6].to_tagged_string('ner'))
+
+
+

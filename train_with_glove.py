@@ -1,5 +1,3 @@
-from flair.data import Sentence, Corpus
-from flair.datasets import CONLL_03, SentenceDataset
 from typing import List
 
 import flair
@@ -12,31 +10,12 @@ from flair.embeddings import (
     FlairEmbeddings,
     CharacterEmbeddings,
 )
-import nlpaug
-from nlpaugment import(
-    punctuation_aug,
-    capitalization_aug,
-    ocr_aug,
-    keyboard_aug,
-    random_insert_aug,
-    random_subtitute_aug,
-    random_swap_aug,
-    random_delete_aug
-)
 
-from flair.data import  Token
-import nlpaug.augmenter.char as nac
-import nlpaug.augmenter.word as naw
-import nlpaug.augmenter.sentence as nas
-import nlpaug.flow as nafc
-from nlpaug.util import Action
 from flair.training_utils import EvaluationMetric
-from flair.visual.training_curves import Plotter
 
-import flair
-flair.device = 'cuda:0'
-# flair.set_seed(2)
-# flair.set_seed(3)
+#get the corpus
+
+from flair.datasets import CONLL_03
 from mapping import (
         twitter_ner_mapped,
         onto_ner_mapped,
@@ -44,7 +23,6 @@ from mapping import (
         webpages_ner_mapped
     )
 
-# load corpus
 dataset_name = "conll3"
 
 for seed in [1,2,3]:
@@ -66,22 +44,15 @@ for seed in [1,2,3]:
 
     # 2. what tag do we want to predict?
     tag_type = "ner"
-    augm = ocr_aug(corpus)
+
 
     # 3. make the tag dictionary from the corpus
-    tag_dictionary = augm.make_tag_dictionary(tag_type=tag_type)
+    tag_dictionary = corpus.make_tag_dictionary(tag_type=tag_type)
     print(tag_dictionary.idx2item)
 
     # initialize embeddings
     embedding_types: List[TokenEmbeddings] = [
         WordEmbeddings("glove"),
-        # comment in this line to use character embeddings
-        # CharacterEmbeddings(),
-        # comment in these lines to use contextual string embeddings
-        #
-        # FlairEmbeddings('news-forward'),
-        #
-        # FlairEmbeddings('news-backward'),
     ]
 
     embeddings: StackedEmbeddings = StackedEmbeddings(embeddings=embedding_types)
@@ -100,12 +71,13 @@ for seed in [1,2,3]:
     # initialize trainer
     from flair.trainers import ModelTrainer
 
-    trainer: ModelTrainer = ModelTrainer(tagger, augm)
+    trainer: ModelTrainer = ModelTrainer(tagger, corpus)
 
     trainer.train(
-        f"resources/taggers/char_aug/{dataset_name}_ocr_glove_{seed}",
+        f"resources/taggers/{dataset_name}_glove_{seed}",
         learning_rate=0.1,
         mini_batch_size=32,
-        max_epochs=50,
+        max_epochs=100,
         shuffle=True,
     )
+
